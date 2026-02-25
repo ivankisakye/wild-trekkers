@@ -42,9 +42,9 @@ const Footer = () => {
 
 
                     <img
-                      src="/logo3.png"
+                      src="/logoft1.png"
                       alt="Wild Trekker Logo"
-                      className="w-60 h-10 object-contain"
+                      className="w-40 h-10 object-contain"
                     />
 
 

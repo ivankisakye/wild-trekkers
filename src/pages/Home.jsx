@@ -90,16 +90,7 @@ const Home = () => {
         {/* Hero Content - Enhanced */}
         <div className="relative z-20 text-center text-white px-4 max-w-6xl mx-auto">
           {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="inline-flex items-center bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 mb-6"
-          >
-            <FaShieldAlt className="text-amber-400 mr-2" />
-            <span className="text-sm font-medium tracking-wide">TRUSTED SAFARI OPERATOR SINCE 2010</span>
-          </motion.div>
-
+          
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
