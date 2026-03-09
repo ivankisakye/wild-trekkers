@@ -299,7 +299,7 @@ const Header = () => {
                   to="/book-now"
                   className="block w-full bg-safari-sand hover:bg-safari-brown text-white text-center py-4 rounded-full font-semibold transition-colors"
                 >
-                  Book Now
+                  Book Now.
                 </Link>
               </div>
             </nav>
