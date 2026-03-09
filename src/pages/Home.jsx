@@ -148,7 +148,7 @@ const Home = () => {
             >
               <span className="flex items-center">
                 <FaCompass className="mr-3 group-hover:rotate-45 transition-transform duration-300" />
-                Plan Your Safari
+                Plan Your Safari now
               </span>
             </Link>
           </motion.div>
