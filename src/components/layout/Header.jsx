@@ -8,6 +8,7 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(null);
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
   const location = useLocation();
 
   const isHomePage = location.pathname === '/';
@@ -29,7 +30,7 @@ const Header = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { 
-      name: 'Tours', 
+      name: 'Tours & Safaris', 
       path: '/tours',
       hasDropdown: true
     },
@@ -137,39 +138,135 @@ const Header = () => {
                         }`} />
                       )}
                     </Link>
-
+                    
                     {/* Dropdown */}
-                    <AnimatePresence>
-                      {link.hasDropdown && activeDropdown === link.name && (
-                        <motion.div
-                          initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                          animate={{ opacity: 1, y: 0, scale: 1 }}
-                          exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                          transition={{ duration: 0.2 }}
-                          className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden py-2"
-                        >
-                          <Link
-                            to={link.path}
-                            className="block px-4 py-2.5 text-sm text-safari-dark hover:bg-safari-green/5 hover:text-safari-green transition-colors"
+                      
+
+                      <AnimatePresence>
+                        {link.hasDropdown && activeDropdown === link.name && link.name === "Tours & Safaris" && (
+                          <motion.div
+                            initial={{ opacity: 0, y: 10 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 10 }}
+                            transition={{ duration: 0.2 }}
+                            className="absolute left-1/2 -translate-x-1/2 mt-3 flex bg-white shadow-2xl rounded-2xl border border-gray-100"
                           >
-                            All {link.name}
-                          </Link>
-                          <div className="border-t border-gray-100 my-1" />
-                          <Link
-                            to={`${link.path}/featured`}
-                            className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-safari-green/5 hover:text-safari-green transition-colors"
-                          >
-                            Featured {link.name}
-                          </Link>
-                          <Link
-                            to={`${link.path}/popular`}
-                            className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-safari-green/5 hover:text-safari-green transition-colors"
-                          >
-                            Popular {link.name}
-                          </Link>
-                        </motion.div>
-                      )}
-                    </AnimatePresence>
+
+                            {/* LEFT SMALL MENU */}
+                            <div className="w-60 border-r border-gray-100 p-4">
+
+                              <div
+                                onMouseEnter={() => setActiveSubMenu("gorilla")}
+                                className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer"
+                              >
+                                Gorilla Tours
+                              </div>
+
+                              <div className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+                                Wildlife Safaris
+                              </div>
+
+                              <div className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+                                Popular Safaris
+                              </div>
+
+                            </div>
+
+
+                            {/* RIGHT MEGA MENU */}
+                            {activeSubMenu === "gorilla" && (
+                              <div className="w-[900px] p-6">
+
+                                <div className="grid grid-cols-4 gap-8">
+
+                                  {/* Column 1 */}
+                                  <div>
+                                    <h4 className="font-semibold text-safari-green mb-3">
+                                      Gorilla Trekking Offers
+                                    </h4>
+
+                                    <ul className="space-y-2 text-sm text-gray-600">
+                                      <li><Link to="#">2 Days Rwanda Gorilla Safari</Link></li>
+                                      <li><Link to="#">2 Days Budget Gorilla from Kigali</Link></li>
+                                      <li><Link to="#">3 Days Bwindi Gorilla Trekking</Link></li>
+                                      <li><Link to="#">3 Days Gorilla Habituation Safari</Link></li>
+                                      <li><Link to="#">3 Days Mgahinga Gorilla Trek Safari</Link></li>
+                                      <li><Link to="#">3 Days Bwindi Gorilla Trekking Safari</Link></li>
+                                      <li><Link to="#">3 Days Bwindi Gorillas Trek Uganda</Link></li>
+                                      <li><Link to="#">3 Days Off-Season Gorilla Trekking</Link></li>
+                                      <li><Link to="#">3 Days Rwanda Gorilla Tour</Link></li>
+                                      <li><Link to="#">4 Days Gorilla & Sabinyo Volcano Hike</Link></li>
+                                      <li><Link to="#">4 Days Magahinga & Golden Monkey</Link></li>
+                                    </ul>
+                                  </div>
+
+                                  {/* Column 2 */}
+                                  <div>
+                                    <h4 className="font-semibold text-safari-green mb-3">
+                                      Luxury Gorilla Tours
+                                    </h4>
+
+                                    <ul className="space-y-2 text-sm text-gray-600">
+                                      <li><Link to="#">5 Days Uganda Gorilla & Chimp Tour</Link></li>
+                                      <li><Link to="#">5 Days Gorilla & White Water Rafting</Link></li>
+                                      <li><Link to="#">5 Days Uganda Gorilla & Chimp</Link></li>
+                                      <li><Link to="#">5 Days Rwanda Primates & Lake Kivu</Link></li>
+                                      <li><Link to="#">6 Days Bwindi & Nyiragongo Hike</Link></li>
+                                      <li><Link to="#">6 Days Gorilla Uganda from DRC</Link></li>
+                                      <li><Link to="#">6 Days Rwanda Gorillas & Volcano</Link></li>
+                                      <li><Link to="#">6 Days Uganda Gorilla Set Departure</Link></li>
+                                      <li><Link to="#">7 Days Budget Uganda Gorilla Tour</Link></li>
+                                      <li><Link to="#">7 Days Gorilla, Lion & Chimp Safari</Link></li>
+                                      <li><Link to="#">7 Days Primates & Water Rafting</Link></li>
+                                    </ul>
+                                  </div>
+
+                                  {/* Column 3 */}
+                                  <div>
+                                    <h4 className="font-semibold text-safari-green mb-3">
+                                      Uganda – Rwanda Combined Tours
+                                    </h4>
+
+                                    <ul className="space-y-2 text-sm text-gray-600">
+                                      <li><Link to="#">2 Days Rwanda Gorilla Trekking</Link></li>
+                                      <li><Link to="#">2 Days Uganda Gorilla via Kigali</Link></li>
+                                      <li><Link to="#">3 Days Bwindi via Kigali</Link></li>
+                                      <li><Link to="#">3 Days Rwanda Gorilla Trekking</Link></li>
+                                      <li><Link to="#">3 Days Budget Gorilla from Kigali</Link></li>
+                                      <li><Link to="#">3 Days Uganda Gorilla via Kigali</Link></li>
+                                      <li><Link to="#">4 Days Gorilla Trekking from Kigali</Link></li>
+                                      <li><Link to="#">5 Days Primates from Kigali</Link></li>
+                                      <li><Link to="#">10 Days Rwanda & Uganda Gorilla</Link></li>
+                                      <li><Link to="#">15 Days Budget East Africa Tour</Link></li>
+                                      <li><Link to="#">18 Days Budget East Africa Tour</Link></li>
+                                    </ul>
+                                  </div>
+
+                                  {/* Column 4 */}
+                                  <div>
+                                    <h4 className="font-semibold text-safari-green mb-3">
+                                      Fly-In Tours
+                                    </h4>
+
+                                    <ul className="space-y-2 text-sm text-gray-600">
+                                      <li><Link to="#">3 Days Gorilla Safari Fly-In</Link></li>
+                                      <li><Link to="#">3 Days Fly Entebbe to Bwindi</Link></li>
+                                      <li><Link to="#">3 Days Bwindi Flying Safari</Link></li>
+                                      <li><Link to="#">5 Days Fly-In Mgahinga & Lake Bunyonyi</Link></li>
+                                      <li><Link to="#">5 Days Gorilla & Chimp Tracking</Link></li>
+                                    </ul>
+                                  </div>
+
+                                </div>
+                              </div>
+                            )}
+
+                          </motion.div>
+                        )}
+                        </AnimatePresence>
+
+
+
                   </div>
                 ))}
               </div>
