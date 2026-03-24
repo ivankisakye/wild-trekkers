@@ -22,15 +22,15 @@ const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const heroImages = [
-    'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600&q=80',
-    'https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=1600&q=80',
-    'https://images.unsplash.com/photo-1549366021-9f761d450615?w=1600&q=80',
+    '/images/cvr1.jpg',
+    '/images/cvr2.jpg',
+    '/images/cvr3.jpg',
   ];
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % heroImages.length);
-    }, 5000);
+    }, 7000);
     return () => clearInterval(timer);
   }, []);
 
@@ -154,19 +154,7 @@ const Home = () => {
           </motion.div>
 
           {/* Scroll Indicator */}
-          <motion.div 
-            className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.2 }}
-          >
-            <motion.div 
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-            >
-              <FaChevronDown className="text-white/80 text-2xl" />
-            </motion.div>
-          </motion.div>
+          
         </div>
 
         {/* Slide Indicators - Enhanced */}
@@ -311,14 +299,14 @@ const Home = () => {
                   <div className="space-y-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-2xl h-48">
                       <img 
-                        src="https://images.unsplash.com/photo-1534177616072-ef7dc120449d?w=600&q=80" 
+                        src="/images/gor1.jpg" 
                         alt="Gorilla"
                         className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                       />
                     </div>
                     <div className="relative overflow-hidden rounded-2xl shadow-2xl h-64">
                       <img 
-                        src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=600&q=80" 
+                        src="/images/elf1.jpg" 
                         alt="Elephant"
                         className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                       />
@@ -327,14 +315,14 @@ const Home = () => {
                   <div className="space-y-4 mt-8">
                     <div className="relative overflow-hidden rounded-2xl shadow-2xl h-64">
                       <img 
-                        src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&q=80" 
+                        src="/images/lion1.jpg" 
                         alt="Lion"
                         className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                       />
                     </div>
                     <div className="relative overflow-hidden rounded-2xl shadow-2xl h-48">
                       <img 
-                        src="https://images.unsplash.com/photo-1534177616072-ef7dc120449d?w=600&q=80" 
+                        src="/images/zeb1.jpg" 
                         alt="Zebra"
                         className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                       />
@@ -589,7 +577,7 @@ const Home = () => {
         {/* Background with Parallax */}
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1518709766631-a6c7f7856bc2?w=1600&q=80" 
+            src="/images/cvr1.jpg" 
             alt="Safari background"
             className="w-full h-full object-cover scale-105 animate-ken-burns"
           />
@@ -633,7 +621,8 @@ const Home = () => {
                   {[1,2,3,4,5].map((i) => (
                     <div key={i} className="w-10 h-10 rounded-full border-2 border-white overflow-hidden">
                       <img 
-                        src={`https://randomuser.me/api/portraits/${i % 2 ? 'women' : 'men'}/${20 + i}.jpg`} 
+                        //src={`https://randomuser.me/api/portraits/${i % 2 ? 'women' : 'men'}/${20 + i}.jpg`} 
+                        src={`/images${i % 2 ? 'women' : 'men'}/${20 + i}.jpg`} 
                         alt="Traveler"
                         className="w-full h-full object-cover"
                       />
@@ -661,7 +650,7 @@ const Home = () => {
                   <div className="flex items-center space-x-4">
                     <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-amber-400">
                       <img 
-                        src="https://randomuser.me/api/portraits/women/44.jpg" 
+                        src="/images/psst.jpg" 
                         alt="Sarah Johnson"
                         className="w-full h-full object-cover"
                       />

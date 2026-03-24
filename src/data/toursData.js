@@ -6,7 +6,7 @@ export const tours = [
     fullDescription: "Embark on an unforgettable 3-day safari to Murchison Falls National Park. Witness the mighty Nile River squeeze through a 7-meter gorge, creating the world's most powerful waterfall. Enjoy game drives to spot lions, elephants, giraffes, and more. Take a boat cruise to the base of the falls and enjoy bird watching with over 450 species.",
     duration: "3 Days / 2 Nights",
     price: "$850",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80",
+    image: "/images/murch1.jpg",
     includes: [
       "Airport transfers",
       "Accommodation in safari lodge",
@@ -44,7 +44,7 @@ export const tours = [
     fullDescription: "Discover the wonders of Queen Elizabeth National Park on this 4-day safari. Known for its tree-climbing lions, massive elephant herds, and the famous Kazinga Channel. Experience game drives through different sectors, a boat cruise, and optional chimpanzee tracking in Kyambura Gorge.",
     duration: "4 Days / 3 Nights",
     price: "$1,200",
-    image: "https://images.unsplash.com/photo-1549366021-9f761d450615?w=800&q=80",
+    image: "/images/gir1.jpg",
     includes: [
       "Airport transfers",
       "Accommodation in safari lodge",
@@ -89,7 +89,7 @@ export const tours = [
     fullDescription: "Experience the ultimate wildlife encounter with mountain gorillas in Bwindi Impenetrable National Park. This UNESCO World Heritage Site is home to nearly half of the world's remaining mountain gorillas. Trek through dense forest to spend one magical hour with a gorilla family.",
     duration: "3 Days / 2 Nights",
     price: "$1,800",
-    image: "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=800&q=80",
+    image: "/images/gor2.jpg",
     includes: [
       "Domestic flights (optional)",
       "Gorilla trekking permit ($800)",
@@ -128,7 +128,7 @@ export const tours = [
     fullDescription: "Venture to the remote Kidepo Valley National Park, rated as Africa's finest wilderness park. Experience true wilderness, spectacular landscapes, and wildlife found nowhere else in Uganda including cheetahs and ostriches. Perfect for adventurers seeking off-the-beaten-path experiences.",
     duration: "5 Days / 4 Nights",
     price: "$2,100",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80",
+    image: "/images/elf2.jpg",
     includes: [
       "Domestic flights",
       "Luxury safari lodge accommodation",
@@ -177,7 +177,7 @@ export const tours = [
     fullDescription: "Experience adventure at its best in Jinja, the adventure capital of East Africa. Enjoy white-water rafting on the Nile, bungee jumping, quad biking, horse riding, and visit the actual source of the mighty River Nile. Perfect for thrill-seekers and adventure lovers.",
     duration: "2 Days / 1 Night",
     price: "$650",
-    image: "https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?w=800&q=80",
+    image: "/images/bot1.jpg",
     includes: [
       "Transport from Kampala",
       "Accommodation in Jinja",
@@ -211,7 +211,7 @@ export const tours = [
     fullDescription: "Discover the stunning Sipi Falls, a series of three beautiful waterfalls on the foothills of Mount Elgon. Enjoy guided hikes through coffee plantations, visit local communities, experience coffee making, and abseil down the falls for the ultimate adventure.",
     duration: "2 Days / 1 Night",
     price: "$450",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    image: "/images/falls1.jpg",
     includes: [
       "Transport from Kampala",
       "Accommodation near Sipi Falls",
@@ -243,7 +243,7 @@ export const tours = [
   fullDescription: "Embark on an unforgettable 3-day journey into Kibale National Park, the primate capital of East Africa and home to the highest density of primates on the continent. With over 1,500 chimpanzees and 13 primate species, this safari offers the ultimate chimpanzee tracking experience with over 95% success rates. Walk through pristine rainforest, encounter the famous Bigodi Wetland Sanctuary, and spend a magical hour observing our closest genetic relatives in their natural habitat.",
   duration: "3 Days / 2 Nights",
   price: "$1,100",
-  image: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&q=80",
+  image: "/images/elf3.jpg",
   includes: [
     "Airport transfers",
     "Accommodation at forest lodge",
@@ -282,7 +282,7 @@ export const tours = [
   fullDescription: "Discover Lake Mburo National Park, Uganda's smallest savannah park but one of its most diverse. Located conveniently close to Kampala, this 3-day escape offers unique experiences unavailable elsewhere in Uganda - walking safaris among wildlife, horseback riding through the bush, and night game drives. Home to the largest population of impalas, Burchell's zebras, and over 350 bird species including the rare African finfoot. The park's five lakes attract hippos, crocodiles, and abundant waterbirds, while acacia woodlands harbor elands, buffaloes, and leopards.",
   duration: "3 Days / 2 Nights",
   price: "$950",
-  image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80",
+  image: "/images/lake1.jpg",
   includes: [
     "Airport transfers",
     "Accommodation at lakeside lodge",
@@ -322,7 +322,7 @@ export const tours = [
   fullDescription: "Challenge yourself on the ultimate trekking adventure in the Rwenzori Mountains, Africa's tallest mountain range and a UNESCO World Heritage site. Known as the 'Mountains of the Moon,' these mystical peaks offer world-class hiking through diverse ecosystems - from tropical rainforest and bamboo zones to the surreal afro-alpine moorland with giant lobelias and groundsel. Trek to Margherita Peak (5,109m) on Mount Stanley for technical glacier climbing, or opt for shorter treks to scenic Lake Mahoma or Weismann's Peak. Experience the unique culture of the Bakonzo people who call these slopes home.",
   duration: "7 Days / 6 Nights",
   price: "$1,850",
-  image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80",
+  image: "/images/mtn1.jpg",
   includes: [
     "Airport transfers",
     "Mountain hut/camp accommodation",
@@ -382,7 +382,7 @@ export const tours = [
   fullDescription: "Explore the breathtaking Virunga Volcanoes at Mgahinga Gorilla National Park, where Uganda, Rwanda and Congo meet. This compact 33.7 sq km park packs extraordinary biodiversity - it's the only place in Uganda where golden monkeys roam freely and mountain gorillas inhabit the bamboo forests on the slopes of three extinct volcanoes: Muhavura, Gahinga and Sabyinyo. Experience the rare opportunity to track endangered golden monkeys through bamboo corridors, with optional gorilla trekking or challenging volcano climbs. The indigenous Batwa pygmies offer immersive cultural walks sharing ancient forest secrets.",
   duration: "3 Days / 2 Nights",
   price: "$1,400",
-  image: "https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?w=800&q=80",
+  image: "/images/mga1.jpg",
   includes: [
     "Airport transfers",
     "Accommodation near park",
@@ -422,7 +422,7 @@ export const tours = [
   fullDescription: "Venture into one of Africa's most ancient forests at Semliki National Park, a biodiversity hotspot where East African savannah meets Central African jungle. This 220 sq km wilderness preserves Uganda's only true lowland tropical rainforest, featuring the famous Sempaya Hot Springs, pygmy hippos, and over 440 bird species including 40+ Central African endemics found nowhere else in Uganda. Track chimpanzees that have adapted to walking on their hind legs, spot the rare shoebill stork in the delta, and witness the dramatic male hot springs bubbling up to 103°C. The surrounding Batwa and Bwamba communities offer authentic cultural encounters.",
   duration: "3 Days / 2 Nights",
   price: "$1,050",
-  image: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80",
+  image: "/images/seml1.jpg",
   includes: [
     "Airport transfers",
     "Accommodation at forest lodge",
@@ -463,7 +463,7 @@ export const tours = [
   fullDescription: "Escape to the magical Lake Bunyonyi, Africa's second deepest lake and Uganda's most beautiful water body. Nestled among terraced hills at 1,962m altitude, this 900m deep crater lake features 29 mystical islands each with unique legends - from Punishment Island where unmarried pregnant girls were abandoned, to Bushara Island with its community conservation projects. Trade safari vehicles for traditional dugout canoes, hike through vibrant villages, swim in bilharzia-free waters, and connect with the Bakiga and Batwa communities. The perfect recovery spot after gorilla trekking or a standalone mountain-lake paradise.",
   duration: "3 Days / 2 Nights",
   price: "$850",
-  image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&q=80",
+  image: "/images/lake1.jpg",
   includes: [
     "Airport transfers",
     "Island lodge accommodation",
@@ -503,7 +503,7 @@ export const tours = [
   fullDescription: "Discover Lake Mutanda, a hidden gem nestled between Mgahinga and Bwindi National Parks, offering arguably the most spectacular scenery in Uganda. This small but stunning 2,317m altitude lake features a chain of emerald islands against the dramatic backdrop of the Virunga volcanoes - Muhavura, Gahinga and Sabyinyo. Unlike its famous neighbor Bunyonyi, Mutanda remains authentically untouched, with dugout canoes as the primary transport and vibrant lakeside communities. Paddle to Python Island, trek through island forests, swim in crystal clear waters, and enjoy uninterrupted views of three countries from your lodge. The perfect base for gorilla trekking or a serene finale to your Ugandan adventure.",
   duration: "3 Days / 2 Nights",
   price: "$900",
-  image: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800&q=80",
+  image: "/images/lake2.jpg",
   includes: [
     "Airport transfers",
     "Lakeside lodge accommodation",
@@ -546,42 +546,42 @@ export const destinations = [
     id: 1,
     name: "Murchison Falls National Park",
     description: "Uganda's largest national park, home to the world's most powerful waterfall and incredible wildlife viewing.",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80",
+    image: "/images/murch1.jpg",
     highlights: ["Nile boat cruises", "Big game viewing", "450+ bird species", "Waterfall hikes"]
   },
   {
     id: 2,
     name: "Queen Elizabeth National Park",
     description: "Famous for tree-climbing lions and the wildlife-rich Kazinga Channel connecting two lakes.",
-    image: "https://images.unsplash.com/photo-1549366021-9f761d450615?w=800&q=80",
+    image: "/images/elf1.jpg",
     highlights: ["Tree-climbing lions", "Kazinga Channel", "Diverse ecosystems", "Chimp tracking"]
   },
   {
     id: 3,
     name: "Bwindi Impenetrable Forest",
     description: "UNESCO World Heritage Site and home to nearly half of the world's mountain gorillas.",
-    image: "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=800&q=80",
+    image: "/images/chmp2.jpg",
     highlights: ["Mountain gorillas", "Ancient rainforest", "360+ bird species", "Batwa culture"]
   },
   {
     id: 4,
     name: "Kidepo Valley National Park",
     description: "Remote savannah wilderness with dramatic landscapes and rare wildlife species.",
-    image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80",
+    image: "/images/falls1.jpg",
     highlights: ["Pristine wilderness", "Karamojong culture", "Unique wildlife", "Stunning valleys"]
   },
   {
     id: 5,
     name: "Jinja - Source of the Nile",
     description: "Adventure capital of East Africa where the Nile begins its journey to the Mediterranean.",
-    image: "https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?w=800&q=80",
+    image: "/images/bot1.jpg",
     highlights: ["White-water rafting", "Bungee jumping", "Source of the Nile", "Water sports"]
   },
   {
     id: 6,
     name: "Sipi Falls",
     description: "Three stunning waterfalls cascading down the slopes of Mount Elgon through lush coffee plantations.",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    image: "/images/falls2.jpg",
     highlights: ["Waterfall hiking", "Coffee tours", "Abseiling", "Mountain views"]
   }
 ];
@@ -615,7 +615,7 @@ Treks can last 2-8 hours depending on gorilla location. The forest is dense and 
 Your permit fee directly supports gorilla conservation and local communities. Uganda's gorilla population has been steadily increasing thanks to these efforts.
 
 The experience of sitting quietly as a massive silverback gorilla passes within meters of you is truly life-changing. Book your adventure with Wild Trekker Safaris today!`,
-    image: "https://images.unsplash.com/photo-1551969014-7d2c4cddf0b6?w=800&q=80",
+    image: "/images/chmp3.jpg",
     category: "Wildlife",
     date: "January 15, 2026",
     author: "Sarah Kimani"
@@ -657,7 +657,7 @@ Spot nocturnal creatures like leopards, bush babies, and civets.
 The highest concentration of hippos in Africa plus countless waterbirds and elephants.
 
 Uganda truly is the Pearl of Africa! Contact Wild Trekker Safaris to experience these wonders.`,
-    image: "https://images.unsplash.com/photo-1549366021-9f761d450615?w=800&q=80",
+    image: "/images/ex1.jpg",
     category: "Wildlife",
     date: "January 10, 2026",
     author: "David Okello"
@@ -696,7 +696,7 @@ Relax with a gentle boat cruise while the sun sets over the mighty Nile.
 Jinja's restaurant scene offers everything from local Ugandan food to international cuisine.
 
 Jinja is the perfect addition to any Uganda safari. Wild Trekker Safaris can combine adventure with wildlife for the ultimate trip!`,
-    image: "https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?w=800&q=80",
+    image: "/images/exp2.jpg",
     category: "Adventure",
     date: "January 5, 2026",
     author: "Emma Nabirye"
@@ -728,7 +728,7 @@ Never get too close or disturb animals for a photo. Use your zoom and stay in th
 Use shutter priority (1/1000s minimum) for moving animals. Aperture priority works for portraits. Always shoot in RAW format for maximum editing flexibility.
 
 Practice these techniques and you'll return home with a portfolio worthy of National Geographic!`,
-    image: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&q=80",
+    image: "/images/photo1.jpg",
     category: "Travel Tips",
     date: "December 28, 2025",
     author: "James Mukasa"
@@ -758,7 +758,7 @@ Uganda's rhinos are protected at Ziwa Rhino Sanctuary, en route to Murchison Fal
 Uganda's Big Five populations are recovering thanks to dedicated conservation. Your safari supports these efforts through park fees and community employment.
 
 Spotting all five is a badge of honor for any safari enthusiast!`,
-    image: "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=800&q=80",
+    image: "/images/walk.jpg",
     category: "Wildlife",
     date: "December 20, 2025",
     author: "Patricia Auma"
