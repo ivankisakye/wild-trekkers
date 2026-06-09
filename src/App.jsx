@@ -14,6 +14,8 @@ import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 import BookNow from './pages/BookNow';
 import ItineraryDetails from './pages/ItineraryDetails';
+import WildlifeSafariDetails from './pages/WildlifeSafariDetails';
+import ExperienceDetails from './pages/ExperienceDetails';
 
 function App() {
   return (
@@ -23,12 +25,11 @@ function App() {
 
         <main className="flex-grow">
           <Routes>
+            {/* Main Pages */}
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-
             <Route path="/tours" element={<Tours />} />
             <Route path="/tour/:id" element={<TourDetail />} />
-
             <Route path="/destinations" element={<Destinations />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/blog" element={<Blog />} />
@@ -36,25 +37,45 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/book-now" element={<BookNow />} />
 
-            {/* Dynamic Itinerary Routes */}
+            {/* Gorilla Trekking Tours Routes */}
             <Route
               path="/gorilla-tours/:slug"
               element={<ItineraryDetails />}
             />
 
+            {/* Wildlife Safaris Routes */}
             <Route
               path="/wildlife-safaris/:slug"
-              element={<ItineraryDetails />}
+              element={<WildlifeSafariDetails />}
             />
 
+            {/* Experiences Routes */}
+            <Route
+              path="/experiences/:slug"
+              element={<ExperienceDetails />}
+            />
+
+            {/* Destination Routes */}
             <Route
               path="/destinations/:slug"
               element={<ItineraryDetails />}
             />
 
+            {/* 404 Catch-all Route - Optional */}
             <Route
-              path="/experiences/:slug"
-              element={<ItineraryDetails />}
+              path="*"
+              element={
+                <div className="pt-32 min-h-screen flex items-center justify-center">
+                  <div className="text-center">
+                    <h1 className="text-6xl font-bold text-gray-800 mb-4">404</h1>
+                    <h2 className="text-2xl font-semibold text-gray-700 mb-4">Page Not Found</h2>
+                    <p className="text-gray-600 mb-8">The page you're looking for doesn't exist.</p>
+                    <a href="/" className="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition inline-block">
+                      Return Home
+                    </a>
+                  </div>
+                </div>
+              }
             />
           </Routes>
         </main>

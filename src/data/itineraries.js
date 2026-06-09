@@ -1,126 +1,888 @@
 export const itineraries = [
+
+  // ═══════════════════════════════════════════
+  // GORILLA TREKKING OFFERS
+  // ═══════════════════════════════════════════
+
   {
     slug: "2-days-rwanda-gorilla-safari",
     title: "2 Days Rwanda Gorilla Safari",
     duration: "2 Days / 1 Night",
     image: "/images/cvr2.jpg",
-
-    overview:
-      "Experience the unforgettable adventure of mountain gorilla trekking in Rwanda's Volcanoes National Park on this short but rewarding safari.",
-
-    description:
-      "This 2 Days Rwanda Gorilla Safari is perfect for travelers with limited time. The tour begins in Kigali and takes you to Volcanoes National Park for a once-in-a-lifetime encounter with mountain gorillas in their natural habitat.",
-
+    overview: "A short but extraordinary encounter with mountain gorillas in Rwanda's Volcanoes National Park — perfect for travelers with limited time.",
+    description: "This 2-day safari departs from Kigali and delivers a full gorilla trekking experience in Volcanoes National Park. Despite its brevity, it covers everything essential: a scenic countryside drive, a comfortable overnight stay near the park, and one magical hour face-to-face with a mountain gorilla family.",
     highlights: [
-      "Gorilla trekking in Volcanoes National Park",
-      "Scenic drive through Rwanda's countryside",
+      "Gorilla trekking permit in Volcanoes National Park",
+      "Scenic drive through Rwanda's thousand hills",
       "Professional English-speaking guide",
-      "Comfortable accommodation",
+      "Comfortable lodge accommodation",
       "Airport transfers included",
     ],
-
     itinerary: [
-      {
-        day: "Day 1: Arrival & Transfer to Volcanoes National Park",
-        description:
-          "Arrive in Kigali, meet your guide, enjoy a short city tour, and transfer to Volcanoes National Park for overnight stay.",
-      },
-      {
-        day: "Day 2: Gorilla Trekking & Return to Kigali",
-        description:
-          "Early breakfast followed by gorilla trekking. After the trek, return to Kigali for departure.",
-      },
+      { day: "Day 1: Kigali to Volcanoes National Park", description: "Arrive at Kigali International Airport where your guide meets you. Enjoy a brief orientation of the city before transferring north to Musanze (Ruhengeri), the gateway town to Volcanoes National Park. Check into your lodge, attend the evening briefing on gorilla trekking rules and expectations, then rest ahead of an early start." },
+      { day: "Day 2: Gorilla Trekking & Return to Kigali", description: "Rise early for breakfast before reporting to the park headquarters at 7:00 AM for the pre-trek briefing. Trek into the bamboo and afro-montane forest to locate your assigned gorilla family. Spend one unforgettable hour observing them at close range. Return to the trailhead, collect your tracking certificate, then transfer back to Kigali for your onward flight or hotel." },
+    ],
+  },
+
+  {
+    slug: "2-days-budget-gorilla-from-kigali",
+    title: "2 Days Budget Gorilla from Kigali",
+    duration: "2 Days / 1 Night",
+    image: "/images/cvr2.jpg",
+    overview: "The most affordable way to trek mountain gorillas — departing directly from Kigali with no frills, full experience.",
+    description: "Designed for budget-conscious travellers, this 2-day tour keeps costs lean without cutting corners on the gorilla experience itself. You still receive professional guiding, park transfers, and a full trekking day in Volcanoes National Park — just in simpler accommodation and a streamlined itinerary.",
+    highlights: [
+      "Budget-friendly gorilla trekking from Kigali",
+      "Volcanoes National Park access",
+      "Professional guide and porter available",
+      "Simple but comfortable guesthouse accommodation",
+      "All park transfers included",
+    ],
+    itinerary: [
+      { day: "Day 1: Transfer to Musanze", description: "Depart Kigali after breakfast for the 2–3 hour drive to Musanze. Check into a clean budget guesthouse near the park. Afternoon free to relax or explore the local market. Evening briefing on trekking protocol, what to expect, and safety guidelines." },
+      { day: "Day 2: Gorilla Trek & Return", description: "Early morning park headquarters check-in by 7:00 AM. Trek into the forest with your assigned ranger group to find your gorilla family. After the one-hour visit, transfer back to Musanze for lunch, then return to Kigali. Drop-off at your hotel or the airport." },
     ],
   },
 
   {
     slug: "3-days-bwindi-gorilla-trekking",
-    title: "3 Days Bwindi Gorilla Trekking Safari",
+    title: "3 Days Bwindi Gorilla Trekking",
     duration: "3 Days / 2 Nights",
-    image: "/images/tours/bwindi.jpg",
-
-    overview:
-      "Explore the world-famous Bwindi Impenetrable Forest and enjoy an unforgettable mountain gorilla trekking experience.",
-
-    description:
-      "This safari takes you deep into Bwindi Forest, home to almost half of the world's remaining mountain gorillas.",
-
+    image: "/images/gor2.jpg",
+    overview: "The classic Uganda gorilla safari — drive through the equator, sleep in the ancient forest, and meet mountain gorillas in Bwindi.",
+    description: "Bwindi Impenetrable National Park is a UNESCO World Heritage Site sheltering nearly half of all remaining mountain gorillas on Earth. This 3-day itinerary is the most popular gorilla trekking route from Kampala or Entebbe, combining a scenic overland journey with a full trekking day and a community morning before your return.",
     highlights: [
-      "Bwindi Impenetrable Forest",
-      "Mountain Gorilla Trekking",
-      "Equator Stopover",
-      "Beautiful Scenic Landscapes",
-      "Professional Safari Guide",
+      "Gorilla trekking permit in Bwindi Impenetrable Forest",
+      "Equator crossing photo stop",
+      "Batwa or community village visit",
+      "Professional ranger guide",
+      "Comfortable forest lodge accommodation",
     ],
-
     itinerary: [
-      {
-        day: "Day 1: Transfer to Bwindi",
-        description:
-          "Depart Kampala or Entebbe and drive to Bwindi with stopovers for sightseeing and photography.",
-      },
-      {
-        day: "Day 2: Gorilla Trekking Experience",
-        description:
-          "Track mountain gorillas in Bwindi Forest and spend one unforgettable hour with them.",
-      },
-      {
-        day: "Day 3: Return to Kampala",
-        description:
-          "After breakfast, begin the journey back to Kampala or Entebbe.",
-      },
+      { day: "Day 1: Kampala / Entebbe to Bwindi", description: "Depart early morning for the 8–9 hour drive southwest. Stop at the Equator in Kayabwe for photos. Enjoy en-route lunch in Mbarara. Arrive at your Bwindi lodge in the late afternoon. Evening briefing by the guide on tomorrow's trek." },
+      { day: "Day 2: Gorilla Trekking Day", description: "7:00 AM registration at the Uganda Wildlife Authority offices. Assigned to a gorilla family group and briefed by rangers. Trek into the impenetrable forest — duration varies from 1 to 6 hours depending on gorilla location. Spend one hour with the gorilla family. Return to the lodge for a celebration lunch and certificate presentation." },
+      { day: "Day 3: Community Visit & Return to Kampala", description: "Morning optional visit to a Batwa cultural village or a local women's craft cooperative. After breakfast, begin the return drive to Kampala or Entebbe with lunch en route. Arrive evening." },
     ],
   },
 
   {
-    slug: "5-days-uganda-gorilla-chimp-tour",
-    title: "5 Days Uganda Gorilla & Chimpanzee Safari",
-    duration: "5 Days / 4 Nights",
-    image: "/images/tours/gorilla-chimp.jpg",
-
-    overview:
-      "Combine gorilla trekking and chimpanzee tracking in one exciting Uganda safari.",
-
-    description:
-      "Experience Uganda's most popular primate activities including chimpanzee tracking in Kibale Forest and gorilla trekking in Bwindi.",
-
+    slug: "3-days-gorilla-habituation-safari",
+    title: "3 Days Gorilla Habituation Safari",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Spend four hours — not just one — with semi-wild gorillas during the rare habituation experience in Rushaga, Bwindi.",
+    description: "Unlike standard gorilla trekking which allows only one hour with a fully habituated family, the Gorilla Habituation Experience (GHEX) grants you four hours with a gorilla family still being trained to accept human presence. Available only in Rushaga sector of Bwindi, this is for those who want a deeper, more intimate, and scientifically meaningful encounter.",
     highlights: [
-      "Chimpanzee Tracking",
-      "Gorilla Trekking",
-      "Kibale Forest",
-      "Bwindi Forest",
-      "Excellent Wildlife Viewing",
+      "4-hour gorilla habituation experience (vs 1-hour standard)",
+      "Rushaga sector of Bwindi Impenetrable Forest",
+      "Observe natural gorilla behavior up close",
+      "Accompanied by researchers and trackers",
+      "Certificate of participation",
     ],
-
-
     itinerary: [
-      {
-        day: "Day 1: Transfer to Kibale",
-        description:
-          "Travel from Kampala to Kibale Forest National Park.",
-      },
-      {
-        day: "Day 2: Chimpanzee Tracking",
-        description:
-          "Track chimpanzees and explore the Bigodi Wetland Sanctuary.",
-      },
-      {
-        day: "Day 3: Transfer to Bwindi",
-        description:
-          "Drive through scenic landscapes to Bwindi Forest.",
-      },
-      {
-        day: "Day 4: Gorilla Trekking",
-        description:
-          "Enjoy the unforgettable mountain gorilla trekking experience.",
-      },
-      {
-        day: "Day 5: Return to Kampala",
-        description:
-          "Return to Kampala or Entebbe for departure.",
-      },
+      { day: "Day 1: Transfer to Rushaga, Bwindi", description: "Early departure from Kampala. Drive via the Equator and Mbarara to Rushaga sector in southern Bwindi. Check in, evening briefing on the difference between habituation and standard trekking." },
+      { day: "Day 2: Gorilla Habituation Experience", description: "Report to Rushaga UWA offices by 7:00 AM. Trek with researchers and experienced trackers to locate the semi-habituated gorilla family. Spend four hours observing, noting, and photographing at close range as the group goes about its morning activities. Return to lodge for a late lunch and rest." },
+      { day: "Day 3: Return Journey", description: "Optional morning nature walk or birding along Bwindi forest edge. After breakfast, drive back to Kampala or Entebbe, arriving evening." },
     ],
-
-
   },
+
+  {
+    slug: "3-days-mgahinga-gorilla-trek-safari",
+    title: "3 Days Mgahinga Gorilla Trek Safari",
+    duration: "3 Days / 2 Nights",
+    image: "/images/mga1.jpg",
+    overview: "Track the Nyakagezi gorilla family against the dramatic backdrop of Uganda's Virunga volcanoes in Mgahinga National Park.",
+    description: "Mgahinga Gorilla National Park sits where Uganda, Rwanda, and Congo meet — a remote jewel where volcanic peaks rise above bamboo forest. The resident Nyakagezi gorilla family is one of the most relaxed and well-habituated groups in the region. This safari pairs gorilla trekking with Uganda's most dramatic mountain scenery and an optional golden monkey tracking experience.",
+    highlights: [
+      "Gorilla trekking in Mgahinga Gorilla National Park",
+      "Nyakagezi gorilla family — highly habituated",
+      "Dramatic Virunga volcano backdrop",
+      "Optional golden monkey tracking",
+      "Batwa cultural trail experience",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Kisoro / Mgahinga", description: "Long but scenic drive (8–9 hours) through Kabale and the Kigezi highlands to Kisoro near the park gate. Check in with views of the three volcanoes. Evening briefing and relaxation." },
+      { day: "Day 2: Gorilla Trekking & Batwa Trail", description: "Morning trek in the bamboo zone and volcanic slopes to find the Nyakagezi family. One hour with the gorillas. Afternoon Batwa cultural trail with indigenous guides sharing forest hunting and medicinal plant knowledge." },
+      { day: "Day 3: Optional Golden Monkey Trek & Departure", description: "Optional morning golden monkey tracking (endemic to the Virungas). After activity, transfer back to Kampala or cross into Rwanda via Cyanika border." },
+    ],
+  },
+
+  {
+    slug: "3-days-bwindi-gorilla-trekking-safari",
+    title: "3 Days Bwindi Gorilla Trekking Safari",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "A premium-level 3-day Bwindi gorilla safari with upgraded lodge accommodation and curated add-on experiences.",
+    description: "This version of the 3-day Bwindi itinerary is designed for travellers seeking a more refined experience. Upgraded lodges with forest views, a guided birding walk on arrival day, and a curated community cultural experience make this the top-tier short gorilla safari from Kampala.",
+    highlights: [
+      "Premium forest lodge accommodation",
+      "Gorilla trekking permit included",
+      "Guided arrival birding walk",
+      "Cultural community experience",
+      "Expert naturalist guide throughout",
+    ],
+    itinerary: [
+      { day: "Day 1: Drive to Bwindi with Birding Stop", description: "Depart Kampala, crossing the equator with a photo stop. En-route birding stop at Lake Mburo for shoebill and papyrus endemics. Arrive Bwindi in the evening, check into upgraded lodge." },
+      { day: "Day 2: Gorilla Trekking", description: "7:00 AM UWA briefing, then trek with your ranger group to locate your assigned gorilla family. Spend the mandatory one hour in their company. Return to lodge for lunch and rest. Evening sundowner on the forest veranda." },
+      { day: "Day 3: Cultural Visit & Return", description: "Morning guided walk to a Bakiga or Batwa community. Watch traditional crafts, listen to folklore, and purchase handmade souvenirs. Drive back to Kampala or Entebbe." },
+    ],
+  },
+
+  {
+    slug: "3-days-bwindi-gorillas-trek-uganda",
+    title: "3 Days Bwindi Gorillas Trek Uganda",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "The essential Bwindi experience — gorilla trekking in Uganda's most celebrated forest with a focus on simplicity and impact.",
+    description: "Straightforward and highly effective, this 3-day Bwindi itinerary prioritises the gorilla trekking experience itself above all else. Ideal for travellers connecting through Entebbe or Kampala who want the cleanest possible route to the gorillas and back.",
+    highlights: [
+      "Mountain gorilla trekking in Bwindi",
+      "UNESCO World Heritage Site forest",
+      "Gorilla trekking certificate",
+      "Experienced UWA ranger guides",
+      "Equator crossing en route",
+    ],
+    itinerary: [
+      { day: "Day 1: Entebbe / Kampala to Bwindi Forest", description: "Pick-up from your hotel or airport. Drive southwest with an equator stop, lunch in Mbarara, and arrival at Bwindi lodge by evening." },
+      { day: "Day 2: Gorilla Trek", description: "UWA headquarters briefing at 7:00 AM. Trek into the forest for your one-hour gorilla encounter. Certificate presentation at the end of the day." },
+      { day: "Day 3: Return to Kampala", description: "Breakfast at lodge, then begin the return drive with a scenic lunch stop. Arrive Kampala or Entebbe by evening." },
+    ],
+  },
+
+  {
+    slug: "3-days-off-season-gorilla-trekking",
+    title: "3 Days Off-Season Gorilla Trekking",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Trek gorillas in Bwindi during the green season and save significantly on accommodation while the forest is at its most lush.",
+    description: "Uganda's wet months (March–May and October–November) offer dramatically reduced lodge rates, fewer trekkers on the trails, and a Bwindi forest that is impossibly green and alive. Gorilla sightings are just as reliable year-round — the only difference is mud underfoot and mist in the air, which makes for hauntingly beautiful photography.",
+    highlights: [
+      "Discounted lodge rates during green season",
+      "Fewer crowds — more intimate experience",
+      "Lush, misty forest atmosphere",
+      "Reliable gorilla sightings year-round",
+      "Gorilla permit and all transfers included",
+    ],
+    itinerary: [
+      { day: "Day 1: Transfer to Bwindi", description: "Depart Kampala for Bwindi. Equator stop en route. Arrive lodge in the evening, briefing and early rest." },
+      { day: "Day 2: Gorilla Trekking", description: "Morning trek through the rainforest floor — gaiters and waterproof boots are your best friends today. Locate and spend one hour with your gorilla family in the misty forest. Celebrate with a hot lunch and a warm drink at the lodge." },
+      { day: "Day 3: Return", description: "Breakfast and return drive to Kampala or Entebbe." },
+    ],
+  },
+
+  {
+    slug: "3-days-rwanda-gorilla-tour",
+    title: "3 Days Rwanda Gorilla Tour",
+    duration: "3 Days / 2 Nights",
+    image: "/images/cvr2.jpg",
+    overview: "Three days of culture, countryside, and gorilla trekking in Rwanda — from Kigali's memorials to the Virunga volcanoes.",
+    description: "This tour adds a Kigali cultural dimension to the Rwanda gorilla experience. Day one covers the Kigali Genocide Memorial and the vibrant Kimironko market before heading north. Day two is fully dedicated to the gorilla trek. Day three returns to Kigali with time for craft shopping before your departure flight.",
+    highlights: [
+      "Kigali Genocide Memorial and cultural city tour",
+      "Mountain gorilla trekking in Volcanoes National Park",
+      "Kimironko craft market visit",
+      "Scenic Rwanda countryside drive",
+      "Professional guide and all transfers",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali Cultural Tour & Transfer North", description: "Morning visit to the Kigali Genocide Memorial for powerful historical context. Lunch at a city restaurant, afternoon Kimironko market browse, then drive to Musanze for overnight." },
+      { day: "Day 2: Gorilla Trekking in Volcanoes NP", description: "7:00 AM park briefing, gorilla trek, one magical hour with a gorilla family. Afternoon rest at lodge, certificate presentation, celebration dinner." },
+      { day: "Day 3: Return to Kigali & Departure", description: "Scenic morning drive back to Kigali. Optional craft shopping at Caplaki market. Drop-off at Kigali International Airport or city hotel." },
+    ],
+  },
+
+  {
+    slug: "4-days-gorilla-and-sabinyo-volcano-hike",
+    title: "4 Days Gorilla & Sabinyo Volcano Hike",
+    duration: "4 Days / 3 Nights",
+    image: "/images/mga1.jpg",
+    overview: "Combine gorilla trekking in Mgahinga with the dramatic summit of Mount Sabyinyo — standing simultaneously in Uganda, Rwanda, and Congo.",
+    description: "This adventure pairs two of the Virunga region's most thrilling activities: mountain gorilla trekking in Mgahinga National Park and the challenging but spectacular hike to the triple-border summit of Mount Sabyinyo (3,669m). Perfect for active travellers who want both wildlife and altitude.",
+    highlights: [
+      "Gorilla trekking in Mgahinga National Park",
+      "Hike Mount Sabyinyo — stand in three countries",
+      "Golden monkey tracking",
+      "Virunga volcanic landscape",
+      "Batwa cultural experience",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Kisoro", description: "Early departure for the long drive to Kisoro. Check in near Mgahinga with volcano views." },
+      { day: "Day 2: Gorilla Trekking", description: "Morning gorilla trek in the bamboo-forested slopes of Mgahinga. One hour with the Nyakagezi family." },
+      { day: "Day 3: Mount Sabyinyo Summit Hike", description: "Full day hike up Mount Sabyinyo via the steep forested trail. Reach the summit ridge where Uganda, Rwanda, and Congo converge. Descend for late lunch and rest." },
+      { day: "Day 4: Golden Monkey Trek & Return", description: "Morning golden monkey tracking in the bamboo zone. After activity, drive back to Kampala." },
+    ],
+  },
+
+  {
+    slug: "4-days-mgahinga-and-golden-monkey",
+    title: "4 Days Mgahinga & Golden Monkey",
+    duration: "4 Days / 3 Nights",
+    image: "/images/mga1.jpg",
+    overview: "Track both mountain gorillas and the endangered golden monkey — two rare primates in one short but extraordinary Ugandan safari.",
+    description: "Mgahinga is the only park in Uganda where you can track golden monkeys, and it also hosts the Nyakagezi gorilla family. This 4-day itinerary dedicates a full day to each primate group, with the Batwa cultural trail and scenic volcano landscapes rounding out one of the most unique short safari itineraries available.",
+    highlights: [
+      "Mountain gorilla trekking — Nyakagezi family",
+      "Golden monkey tracking — endemic to the Virungas",
+      "Batwa cultural trail",
+      "Virunga volcano scenery",
+      "Option to hike Gahinga or Sabyinyo",
+    ],
+    itinerary: [
+      { day: "Day 1: Transfer to Mgahinga", description: "Drive from Kampala to Kisoro, arriving with time to settle in and enjoy the volcano views." },
+      { day: "Day 2: Gorilla Trekking Day", description: "Trek to find the Nyakagezi gorilla family. Spend one hour in observation. Afternoon Batwa cultural trail." },
+      { day: "Day 3: Golden Monkey Tracking", description: "Morning trek into the bamboo forest to find the playful golden monkeys. Spend an hour watching them leap and forage. Optional afternoon hike to Gahinga crater lake." },
+      { day: "Day 4: Return to Kampala", description: "Breakfast with final volcano views. Drive back to Kampala or Entebbe." },
+    ],
+  },
+
+  // ═══════════════════════════════════════════
+  // LUXURY GORILLA TOURS
+  // ═══════════════════════════════════════════
+
+  {
+    slug: "5-days-uganda-gorilla-and-chimp-tour",
+    title: "5 Days Uganda Gorilla & Chimp Tour",
+    duration: "5 Days / 4 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Uganda's two greatest primate encounters — chimpanzee tracking in Kibale and gorilla trekking in Bwindi — in one seamless luxury safari.",
+    description: "This is Uganda's most celebrated primate combination safari. Start in Kibale Forest, home to over 1,500 chimpanzees and the highest primate density in Africa. Then transfer south to Bwindi Impenetrable Forest for mountain gorilla trekking. Both permits are included, accommodation is in premium forest lodges, and a naturalist guide accompanies you throughout.",
+    highlights: [
+      "Chimpanzee tracking in Kibale Forest (95%+ success rate)",
+      "Mountain gorilla trekking in Bwindi",
+      "Bigodi Wetland Sanctuary walk",
+      "Premium lodge accommodation throughout",
+      "Expert naturalist guide",
+    ],
+    itinerary: [
+      { day: "Day 1: Transfer to Kibale Forest", description: "Drive from Kampala to Fort Portal. Afternoon optional crater lake hike or Amabere caves visit. Check into forest lodge near Kanyanchu." },
+      { day: "Day 2: Chimpanzee Tracking & Bigodi Wetland", description: "8:00 AM Kanyanchu briefing. Trek into Kibale to locate chimpanzees. One hour with the chimp family. Afternoon guided Bigodi Wetland walk for primates and 200+ bird species." },
+      { day: "Day 3: Transfer to Bwindi", description: "Scenic drive south through Queen Elizabeth Park (game viewing en route) to Bwindi. Check into luxury forest lodge." },
+      { day: "Day 4: Gorilla Trekking", description: "7:00 AM UWA briefing, trek to your gorilla family. Spend one hour with the gorillas in Bwindi's ancient forest." },
+      { day: "Day 5: Return to Kampala", description: "Morning at leisure, return drive with en-route stops." },
+    ],
+  },
+
+  {
+    slug: "5-days-gorilla-and-white-water-rafting",
+    title: "5 Days Gorilla & White Water Rafting",
+    duration: "5 Days / 4 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Combine the peace of gorilla trekking with the adrenaline of Nile white-water rafting — Uganda's ultimate adventure duo.",
+    description: "Start with the raw power of Grade 5 rapids at Jinja, the white-water rafting capital of Africa, then travel southwest for the quiet magic of gorilla trekking in Bwindi. This tour is built for adventurers who want the full range of Uganda's thrills.",
+    highlights: [
+      "Full-day Grade 5 white-water rafting on the Nile",
+      "Mountain gorilla trekking in Bwindi",
+      "Source of the Nile visit in Jinja",
+      "Two completely contrasting adventure experiences",
+      "Professional guides for both activities",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Jinja", description: "Transfer to Jinja. Afternoon Source of the Nile boat cruise and town orientation. Overnight in Jinja." },
+      { day: "Day 2: White-Water Rafting", description: "Full day on the Nile tackling Grade 3–5 rapids with professional rafting guides. Optional bungee jumping. Overnight Jinja." },
+      { day: "Day 3: Transfer to Bwindi", description: "Long drive southwest to Bwindi Forest. Arrive by evening, briefing at the lodge." },
+      { day: "Day 4: Gorilla Trekking", description: "7:00 AM UWA briefing and gorilla trek. One magical hour with a gorilla family in the impenetrable forest." },
+      { day: "Day 5: Return to Kampala", description: "Drive back via scenic Kigezi highlands to Kampala or Entebbe." },
+    ],
+  },
+
+  {
+    slug: "5-days-uganda-gorilla-and-chimp",
+    title: "5 Days Uganda Gorilla & Chimp",
+    duration: "5 Days / 4 Nights",
+    image: "/images/gor2.jpg",
+    overview: "A streamlined primate double-header: chimpanzees and gorillas across Uganda's two finest primate forests.",
+    description: "A refined version of Uganda's classic primate combo, this itinerary focuses on the two headline experiences — chimp tracking in Kibale and gorilla trekking in Bwindi — with a mid-safari scenic drive through the Kigezi highlands and a more relaxed pace throughout.",
+    highlights: [
+      "Kibale Forest chimpanzee tracking",
+      "Bwindi gorilla trekking",
+      "Scenic Kigezi highlands transit",
+      "Comfortable mid-range lodges",
+      "All permits and park fees included",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Kibale", description: "Drive to Fort Portal and Kibale Forest. Evening nature walk near the lodge." },
+      { day: "Day 2: Chimpanzee Tracking", description: "Morning chimp trek in Kibale. Afternoon at leisure or Bigodi Wetland walk." },
+      { day: "Day 3: Kigezi Highlands Drive to Bwindi", description: "Scenic transfer through tea farms and rolling hills to Bwindi." },
+      { day: "Day 4: Gorilla Trekking", description: "Full gorilla trekking day with UWA rangers in Bwindi Forest." },
+      { day: "Day 5: Return to Kampala", description: "Morning departure back to Kampala." },
+    ],
+  },
+
+  {
+    slug: "5-days-rwanda-primates-and-lake-kivu",
+    title: "5 Days Rwanda Primates & Lake Kivu",
+    duration: "5 Days / 4 Nights",
+    image: "/images/cvr2.jpg",
+    overview: "Trek gorillas and golden monkeys in Rwanda's Virungas then unwind on the beaches of Lake Kivu.",
+    description: "This tour combines the best of Rwanda's primate experiences with the laid-back beauty of Lake Kivu. Trek mountain gorillas in Volcanoes National Park, track golden monkeys through bamboo forest, and then relax on the shores of one of Africa's Great Rift Valley lakes.",
+    highlights: [
+      "Gorilla trekking in Volcanoes National Park",
+      "Golden monkey tracking",
+      "Lake Kivu beach relaxation in Gisenyi/Rubavu",
+      "Scenic Rwandan countryside",
+      "Cultural market visits",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Volcanoes National Park", description: "Drive north to Musanze. Afternoon twin lakes walk. Overnight near the park." },
+      { day: "Day 2: Gorilla Trekking", description: "7:00 AM park briefing, gorilla trek and one-hour encounter." },
+      { day: "Day 3: Golden Monkey Tracking & Lake Kivu Transfer", description: "Morning golden monkey trek. Afternoon drive west to Gisenyi on Lake Kivu." },
+      { day: "Day 4: Lake Kivu Leisure Day", description: "Beach relaxation, kayaking or boat cruise on Lake Kivu. Optional visit to Gisenyi town." },
+      { day: "Day 5: Return to Kigali", description: "Scenic lakeside drive back to Kigali for departure." },
+    ],
+  },
+
+  {
+    slug: "6-days-bwindi-and-nyiragongo-hike",
+    title: "6 Days Bwindi & Nyiragongo Hike",
+    duration: "6 Days / 5 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Trek mountain gorillas in Uganda then hike to the world's largest lava lake on the active Nyiragongo volcano in the DRC.",
+    description: "One of East Africa's most extraordinary adventure combinations: gorilla trekking in Bwindi followed by an overnight hike to the crater rim of Nyiragongo volcano in Virunga National Park, DRC. Watch the glowing lava lake from the rim as night falls — an experience that defines once-in-a-lifetime.",
+    highlights: [
+      "Gorilla trekking in Bwindi Impenetrable Forest",
+      "Nyiragongo volcano overnight hike — DRC",
+      "World's largest lava lake viewed from the crater rim",
+      "Cross-border adventure (Uganda–DRC)",
+      "Virunga mountain landscape",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Bwindi", description: "Drive southwest to Bwindi. Evening briefing and lodge check-in." },
+      { day: "Day 2: Gorilla Trekking", description: "Full gorilla trekking day in Bwindi Forest." },
+      { day: "Day 3: Transfer to Kisoro / DRC Border", description: "Drive to Kisoro. Cross into Goma, DRC. Afternoon acclimatisation and briefing." },
+      { day: "Day 4: Nyiragongo Summit Hike", description: "Begin the 6–8 hour ascent through lava fields and forest to the crater rim (3,470m). Overnight in aluminum huts at the rim with views of the lava lake below." },
+      { day: "Day 5: Descend & Return to Uganda", description: "3-hour descent to Goma. Cross back into Uganda at Bunagana or Kyanika. Return to Kisoro." },
+      { day: "Day 6: Return to Kampala", description: "Full day return drive to Kampala or Entebbe." },
+    ],
+  },
+
+  {
+    slug: "6-days-gorilla-uganda-from-drc",
+    title: "6 Days Gorilla Uganda from DRC",
+    duration: "6 Days / 5 Nights",
+    image: "/images/gor2.jpg",
+    overview: "A cross-border adventure that combines Virunga National Park activities in DRC with mountain gorilla trekking in Uganda.",
+    description: "Enter from Goma in the DRC, spend time exploring Virunga National Park, then cross into Uganda for gorilla trekking in Bwindi or Mgahinga. This reverse routing is perfect for travellers already in DRC or Rwanda who want to experience Uganda's gorillas with a wider regional itinerary.",
+    highlights: [
+      "Virunga National Park, DRC",
+      "Cross-border safari experience",
+      "Gorilla trekking in Uganda",
+      "Nyiragongo or Mikeno activities optional",
+      "Expert cross-border guide",
+    ],
+    itinerary: [
+      { day: "Day 1: Arrive Goma, DRC", description: "Airport pickup in Goma. Transfer to lodge in Virunga buffer zone. Briefing on activities." },
+      { day: "Day 2: Virunga National Park Activities", description: "Gorilla trekking in Virunga (Congolese permit) or chimpanzee tracking at Tchegera." },
+      { day: "Day 3: Nyiragongo Half-Day Hike or Leisure", description: "Optional short hike on Nyiragongo slopes. Afternoon cross into Uganda at Bunagana/Kyanika border." },
+      { day: "Day 4: Transfer to Bwindi or Mgahinga", description: "Transfer to your chosen Ugandan gorilla park." },
+      { day: "Day 5: Gorilla Trekking Uganda", description: "Uganda gorilla permit trek with UWA rangers." },
+      { day: "Day 6: Return to Kampala or Kigali", description: "Transfer to Kampala or return to Kigali, Rwanda." },
+    ],
+  },
+
+  {
+    slug: "6-days-rwanda-gorillas-and-volcano",
+    title: "6 Days Rwanda Gorillas & Volcano",
+    duration: "6 Days / 5 Nights",
+    image: "/images/cvr2.jpg",
+    overview: "Trek gorillas, track golden monkeys, and summit a Virunga volcano in this comprehensive Rwanda adventure.",
+    description: "Rwanda's Volcanoes National Park offers far more than gorilla trekking. This 6-day tour explores everything the park has to offer — gorilla trekking, golden monkey tracking, Dian Fossey tomb hike, and a volcano summit — while weaving in cultural visits to Kigali and a lakeside rest stop.",
+    highlights: [
+      "Mountain gorilla trekking",
+      "Golden monkey tracking",
+      "Dian Fossey tomb hike",
+      "Volcano summit hike (Bisoke or Karisimbi)",
+      "Kigali city tour",
+    ],
+    itinerary: [
+      { day: "Day 1: Arrive Kigali & City Tour", description: "Kigali Genocide Memorial, Kimironko market, transfer to Musanze." },
+      { day: "Day 2: Gorilla Trekking", description: "Volcanoes National Park gorilla trek and one-hour encounter." },
+      { day: "Day 3: Golden Monkey Tracking", description: "Trek bamboo forest for golden monkeys. Afternoon twin lakes walk." },
+      { day: "Day 4: Dian Fossey Tomb Hike", description: "Hike to the research camp and tomb of the famous gorilla conservationist." },
+      { day: "Day 5: Volcano Summit (Bisoke)", description: "Full day hike to the crater lake summit of Mount Bisoke (3,711m)." },
+      { day: "Day 6: Return to Kigali", description: "Scenic drive back to Kigali for departure." },
+    ],
+  },
+
+  {
+    slug: "6-days-uganda-gorilla-set-departure",
+    title: "6 Days Uganda Gorilla Set Departure",
+    duration: "6 Days / 5 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Join a guaranteed small-group departure combining Bwindi gorilla trekking with Queen Elizabeth National Park game drives.",
+    description: "Set departure group tours offer the value of shared costs without compromising the quality of the experience. This 6-day set departure combines Bwindi gorilla trekking with a full game drive day in Queen Elizabeth National Park, including a Kazinga Channel boat cruise. Groups are capped at 8 people.",
+    highlights: [
+      "Small group — maximum 8 participants",
+      "Gorilla trekking in Bwindi",
+      "Queen Elizabeth National Park game drive",
+      "Kazinga Channel boat cruise",
+      "Set departure — guaranteed to run",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Queen Elizabeth NP", description: "Group departs Kampala. Equator stop. Afternoon game drive in Queen Elizabeth." },
+      { day: "Day 2: Kazinga Channel Boat Cruise & Game Drive", description: "Morning game drive, afternoon boat cruise on Kazinga Channel." },
+      { day: "Day 3: Transfer to Bwindi", description: "Drive through Ishasha sector (optional lion search) to Bwindi." },
+      { day: "Day 4: Gorilla Trekking", description: "UWA briefing, gorilla trek, one hour with gorillas." },
+      { day: "Day 5: Community & Batwa Experience", description: "Morning Batwa cultural trail or Bakiga community visit." },
+      { day: "Day 6: Return to Kampala", description: "Full day return drive." },
+    ],
+  },
+
+  {
+    slug: "7-days-budget-uganda-gorilla-tour",
+    title: "7 Days Budget Uganda Gorilla Tour",
+    duration: "7 Days / 6 Nights",
+    image: "/images/gor2.jpg",
+    overview: "See Uganda's best — gorillas, chimps, and game drives — in an affordable 7-day package without compromising on experience.",
+    description: "This budget-friendly 7-day tour delivers Uganda's top three wildlife experiences at the lowest possible cost: chimp tracking in Kibale, game drives in Queen Elizabeth, and gorilla trekking in Bwindi. Accommodation is in clean budget lodges and guesthouses throughout.",
+    highlights: [
+      "Chimpanzee tracking — Kibale Forest",
+      "Game drives — Queen Elizabeth NP",
+      "Gorilla trekking — Bwindi Forest",
+      "Budget accommodation throughout",
+      "All permits and park fees included",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Kibale", description: "Budget transfer to Kibale. Evening orientation." },
+      { day: "Day 2: Chimp Tracking", description: "Morning chimp trek, afternoon Bigodi Wetland walk." },
+      { day: "Day 3: Transfer to Queen Elizabeth NP", description: "Drive south via Kasese to Queen Elizabeth." },
+      { day: "Day 4: Queen Elizabeth Game Drive & Boat", description: "Morning game drive, afternoon Kazinga Channel cruise." },
+      { day: "Day 5: Ishasha Drive to Bwindi", description: "Drive through Ishasha sector then on to Bwindi." },
+      { day: "Day 6: Gorilla Trekking", description: "Full gorilla trekking day in Bwindi." },
+      { day: "Day 7: Return to Kampala", description: "Return journey to Kampala or Entebbe." },
+    ],
+  },
+
+  {
+    slug: "7-days-gorilla-lion-and-chimp-safari",
+    title: "7 Days Gorilla, Lion & Chimp Safari",
+    duration: "7 Days / 6 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Uganda's greatest wildlife trio: tree-climbing lions in Queen Elizabeth, chimpanzees in Kibale, and mountain gorillas in Bwindi.",
+    description: "This 7-day circuit connects Uganda's three most iconic wildlife encounters in a logical geographic loop. Begin with chimps in Kibale, descend to Queen Elizabeth for the famous tree-climbing lions of Ishasha, then push west to Bwindi for gorilla trekking.",
+    highlights: [
+      "Chimpanzee tracking in Kibale",
+      "Tree-climbing lion search in Ishasha",
+      "Mountain gorilla trekking in Bwindi",
+      "Kazinga Channel boat cruise",
+      "Luxury lodge accommodation",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Kibale", description: "Drive to Fort Portal and Kibale Forest." },
+      { day: "Day 2: Kibale Chimp Tracking", description: "Chimpanzee tracking and Bigodi Wetland walk." },
+      { day: "Day 3: Transfer to Queen Elizabeth NP", description: "Drive through Fort Portal to Queen Elizabeth." },
+      { day: "Day 4: Kazinga Channel & Game Drive", description: "Morning game drive and afternoon boat cruise." },
+      { day: "Day 5: Ishasha Tree-Climbing Lions", description: "Full day in Ishasha sector searching for tree-climbing lions." },
+      { day: "Day 6: Gorilla Trekking in Bwindi", description: "Trek to the gorilla family. One hour encounter." },
+      { day: "Day 7: Return to Kampala", description: "Drive back to Kampala via Mbarara." },
+    ],
+  },
+
+  {
+    slug: "7-days-primates-and-water-rafting",
+    title: "7 Days Primates & Water Rafting",
+    duration: "7 Days / 6 Nights",
+    image: "/images/gor2.jpg",
+    overview: "The ultimate Uganda combo: chimpanzees, gorillas, and Grade 5 white-water rafting on the Nile.",
+    description: "Three of Uganda's most exhilarating activities — chimp tracking, gorilla trekking, and Nile rafting — combined in a 7-day loop that covers the best of western Uganda before finishing with adrenaline on the Nile at Jinja.",
+    highlights: [
+      "Chimpanzee tracking in Kibale",
+      "Gorilla trekking in Bwindi",
+      "Grade 5 white-water rafting in Jinja",
+      "Premium and adventure lodges",
+      "Two wildlife permits included",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala to Kibale", description: "Transfer to Kibale Forest." },
+      { day: "Day 2: Chimp Tracking", description: "Morning chimp trek. Afternoon Bigodi Wetland Sanctuary walk." },
+      { day: "Day 3: Transfer to Bwindi", description: "Long but scenic drive through Kigezi highlands." },
+      { day: "Day 4: Gorilla Trekking", description: "UWA briefing and full gorilla trek in Bwindi." },
+      { day: "Day 5: Return Drive Toward Kampala", description: "Drive east, overnight near Kampala or Mbarara." },
+      { day: "Day 6: Jinja White-Water Rafting", description: "Full day Grade 3–5 rafting on the Nile. Evening in Jinja." },
+      { day: "Day 7: Return to Kampala", description: "Morning return to Kampala or airport drop-off." },
+    ],
+  },
+
+  // ═══════════════════════════════════════════
+  // UGANDA – RWANDA COMBINED TOURS
+  // ═══════════════════════════════════════════
+
+  {
+    slug: "2-days-rwanda-gorilla-trekking",
+    title: "2 Days Rwanda Gorilla Trekking",
+    duration: "2 Days / 1 Night",
+    image: "/images/cvr2.jpg",
+    overview: "A concise 2-day Rwanda gorilla trek from Kigali — the fastest route to a mountain gorilla encounter in Africa.",
+    description: "This itinerary is identical in spirit to the classic 2-day Rwanda safari but positioned as part of the Uganda–Rwanda combined tour category, making it the perfect add-on before or after a Uganda leg. Depart Kigali, trek in Volcanoes National Park, and return in two days.",
+    highlights: [
+      "Volcanoes National Park gorilla trekking",
+      "Professional English-speaking guide",
+      "1 night near the park",
+      "Comfortable accommodation",
+      "Airport transfers",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Volcanoes NP", description: "Pick-up from Kigali, drive to Musanze, evening briefing." },
+      { day: "Day 2: Gorilla Trek & Return Kigali", description: "7:00 AM park briefing, gorilla trek, one-hour encounter, return to Kigali." },
+    ],
+  },
+
+  {
+    slug: "2-days-uganda-gorilla-via-kigali",
+    title: "2 Days Uganda Gorilla via Kigali",
+    duration: "2 Days / 1 Night",
+    image: "/images/gor2.jpg",
+    overview: "Fly into Kigali and trek Uganda's Bwindi gorillas in just two days using the short Kigali–Kisoro route.",
+    description: "Perfect for travellers arriving at Kigali International Airport who want to trek in Uganda rather than Rwanda. Drive from Kigali across the border to Kisoro, Uganda, and proceed to Mgahinga or nearby Bwindi. The Kigali routing cuts the journey time significantly compared to coming from Kampala.",
+    highlights: [
+      "Uganda gorilla trekking via Kigali gateway",
+      "Short border crossing at Cyanika",
+      "Nyakagezi gorilla family — Mgahinga",
+      "Scenic Virunga volcano views",
+      "Faster than routing from Kampala",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Kisoro / Mgahinga", description: "Drive from Kigali to Cyanika border (2 hours), cross to Uganda, transfer to Kisoro and lodge. Evening briefing." },
+      { day: "Day 2: Gorilla Trek & Return Kigali", description: "Trek in Mgahinga to find the Nyakagezi gorilla family. Return via Kisoro to Kigali." },
+    ],
+  },
+
+  {
+    slug: "3-days-bwindi-via-kigali",
+    title: "3 Days Bwindi via Kigali",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Fly into Kigali and trek Bwindi's mountain gorillas — a smarter routing that saves hours of driving.",
+    description: "By entering Uganda via Kigali, you cut the overland distance to Bwindi dramatically. This 3-day tour departs Kigali, crosses into Uganda, and delivers you to the gorillas of Bwindi with time for a community cultural experience on the final morning.",
+    highlights: [
+      "Bwindi Impenetrable Forest gorilla trek",
+      "Kigali gateway — shorter drive to Bwindi",
+      "Batwa or Bakiga community experience",
+      "Kigali stopover option on return",
+      "All border formalities handled",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Bwindi via Cyanika Border", description: "Cross into Uganda, drive through Kisoro and Kigezi highlands to Bwindi southern sector. Check in, evening briefing." },
+      { day: "Day 2: Gorilla Trekking", description: "7:00 AM UWA briefing. Trek to gorilla family. One hour encounter. Return to lodge." },
+      { day: "Day 3: Community Visit & Return to Kigali", description: "Morning community cultural experience. Return to Kigali via Cyanika." },
+    ],
+  },
+
+  {
+    slug: "3-days-rwanda-gorilla-trekking",
+    title: "3 Days Rwanda Gorilla Trekking",
+    duration: "3 Days / 2 Nights",
+    image: "/images/cvr2.jpg",
+    overview: "Three days in Rwanda combining a Kigali cultural stop with gorilla trekking in the Virungas.",
+    description: "This classic 3-day Rwanda itinerary features a Kigali cultural morning, an overnight near Volcanoes National Park, a full gorilla trekking day, and a return to Kigali on day three — offering a complete and unhurried Rwanda experience within a short timeframe.",
+    highlights: [
+      "Kigali Genocide Memorial visit",
+      "Mountain gorilla trekking in Volcanoes NP",
+      "Scenic Rwanda countryside",
+      "Comfortable mid-range lodge",
+      "Professional guide throughout",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali City & Transfer North", description: "Kigali Genocide Memorial, Kimironko market, transfer to Musanze." },
+      { day: "Day 2: Gorilla Trekking", description: "7:00 AM park briefing and gorilla trek. One-hour encounter." },
+      { day: "Day 3: Return to Kigali", description: "Morning at leisure, scenic drive back to Kigali." },
+    ],
+  },
+
+  {
+    slug: "3-days-budget-gorilla-from-kigali",
+    title: "3 Days Budget Gorilla from Kigali",
+    duration: "3 Days / 2 Nights",
+    image: "/images/cvr2.jpg",
+    overview: "Three days of gorilla trekking on a budget — departing Kigali with no hidden costs.",
+    description: "The 3-day version of the budget Rwanda gorilla safari. Designed for independent backpackers and budget travellers who want to keep costs low while still accessing Rwanda's mountain gorillas. Guesthouse accommodation, shared transport where possible, and stripped-back but professional guiding.",
+    highlights: [
+      "Budget gorilla trekking from Kigali",
+      "Guesthouse accommodation near Musanze",
+      "Professional ranger guide",
+      "All transfers and park fees",
+      "Kigali city orientation",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Musanze", description: "Budget bus or shared taxi to Musanze. Afternoon walk near town. Evening briefing." },
+      { day: "Day 2: Gorilla Trekking", description: "Park briefing, gorilla trek, one-hour encounter." },
+      { day: "Day 3: Return to Kigali", description: "Morning return by bus or shared vehicle to Kigali." },
+    ],
+  },
+
+  {
+    slug: "3-days-uganda-gorilla-via-kigali",
+    title: "3 Days Uganda Gorilla via Kigali",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "3-day Uganda gorilla trek using the efficient Kigali–Kisoro routing with a cultural morning included.",
+    description: "Combining the speed of the Kigali gateway with the richness of an extra day in Uganda, this 3-day itinerary adds a Batwa cultural experience on day three before returning via Kigali or flying out of Entebbe.",
+    highlights: [
+      "Efficient Kigali to Mgahinga routing",
+      "Uganda gorilla trekking permit",
+      "Batwa cultural trail",
+      "Scenic Virunga volcano views",
+      "Flexible departure — Kigali or Entebbe",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Mgahinga via Cyanika", description: "Cross into Uganda, transfer to Kisoro, check in at lodge." },
+      { day: "Day 2: Gorilla Trekking", description: "Nyakagezi family gorilla trek. One hour with the gorillas." },
+      { day: "Day 3: Batwa Trail & Departure", description: "Morning Batwa cultural trail. Return to Kigali or connect to Entebbe." },
+    ],
+  },
+
+  {
+    slug: "4-days-gorilla-trekking-from-kigali",
+    title: "4 Days Gorilla Trekking from Kigali",
+    duration: "4 Days / 3 Nights",
+    image: "/images/cvr2.jpg",
+    overview: "Four well-paced days combining Kigali culture, Rwanda gorilla trekking, and golden monkey tracking.",
+    description: "This 4-day itinerary departs Kigali, explores the city's cultural highlights, then heads to Volcanoes National Park for both gorilla and golden monkey tracking — two primates in one visit. Ends with a relaxed return to Kigali.",
+    highlights: [
+      "Kigali cultural city tour",
+      "Mountain gorilla trekking",
+      "Golden monkey tracking",
+      "Twin crater lakes nature walk",
+      "3 nights near the Virungas",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali City & Transfer", description: "Kigali memorial, market, and transfer to Musanze." },
+      { day: "Day 2: Gorilla Trekking", description: "Full gorilla trekking day in Volcanoes NP." },
+      { day: "Day 3: Golden Monkey Tracking", description: "Bamboo forest golden monkey trek. Afternoon twin lakes walk." },
+      { day: "Day 4: Return to Kigali", description: "Scenic drive back to Kigali." },
+    ],
+  },
+
+  {
+    slug: "5-days-primates-from-kigali",
+    title: "5 Days Primates from Kigali",
+    duration: "5 Days / 4 Nights",
+    image: "/images/cvr2.jpg",
+    overview: "A comprehensive Rwanda primate safari from Kigali: gorillas, golden monkeys, chimpanzees, and Nyungwe colobus.",
+    description: "This 5-day tour covers Rwanda's primate spectrum. After gorilla and golden monkey tracking in Volcanoes National Park, drive south to Nyungwe Forest for chimpanzee tracking and the spectacular Canopy Walkway where black-and-white colobus monkeys travel in troops of hundreds.",
+    highlights: [
+      "Gorilla trekking — Volcanoes NP",
+      "Golden monkey tracking",
+      "Chimpanzee tracking — Nyungwe Forest",
+      "Nyungwe Canopy Walkway",
+      "Black-and-white colobus monkeys",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Volcanoes NP", description: "City tour and transfer north." },
+      { day: "Day 2: Gorilla Trekking", description: "Volcanoes NP gorilla trek." },
+      { day: "Day 3: Golden Monkey & Transfer South", description: "Golden monkey trek, then long drive south to Nyungwe." },
+      { day: "Day 4: Nyungwe Chimp Tracking & Canopy Walk", description: "Morning chimp tracking, afternoon canopy walkway among colobus." },
+      { day: "Day 5: Return to Kigali", description: "Scenic drive back via Huye to Kigali." },
+    ],
+  },
+
+  {
+    slug: "10-days-rwanda-and-uganda-gorilla",
+    title: "10 Days Rwanda & Uganda Gorilla",
+    duration: "10 Days / 9 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Experience gorilla trekking in both Rwanda and Uganda alongside chimps, game drives, and cultural immersion in a 10-day circuit.",
+    description: "This comprehensive 10-day safari covers the best of both countries. Trek gorillas in Rwanda's Volcanoes National Park and again in Uganda's Bwindi Forest. In between, track chimpanzees in Kibale, do game drives in Queen Elizabeth, and experience cultural highlights in both countries.",
+    highlights: [
+      "Gorilla trekking in Rwanda AND Uganda",
+      "Chimpanzee tracking — Kibale Forest",
+      "Queen Elizabeth NP game drives",
+      "Kigali city tour",
+      "Cross-border Kigali–Kampala circuit",
+    ],
+    itinerary: [
+      { day: "Day 1: Arrive Kigali", description: "Kigali city tour and Genocide Memorial." },
+      { day: "Day 2: Gorilla Trekking Rwanda", description: "Volcanoes NP gorilla trek." },
+      { day: "Day 3: Golden Monkey & Cross to Uganda", description: "Morning golden monkey trek. Cross into Uganda via Cyanika." },
+      { day: "Day 4: Transfer to Kibale", description: "Drive north to Kibale Forest." },
+      { day: "Day 5: Chimpanzee Tracking", description: "Kibale chimp tracking and Bigodi Wetland walk." },
+      { day: "Day 6: Queen Elizabeth NP", description: "Game drive in Kasenyi and Kazinga Channel cruise." },
+      { day: "Day 7: Ishasha to Bwindi", description: "Tree-climbing lion search in Ishasha, then on to Bwindi." },
+      { day: "Day 8: Gorilla Trekking Uganda", description: "Bwindi gorilla trek." },
+      { day: "Day 9: Batwa Culture & Scenic Drive", description: "Batwa community experience, start return journey." },
+      { day: "Day 10: Kampala / Entebbe Departure", description: "Arrive Kampala, transfer to Entebbe airport." },
+    ],
+  },
+
+  {
+    slug: "15-days-budget-east-africa-tour",
+    title: "15 Days Budget East Africa Tour",
+    duration: "15 Days / 14 Nights",
+    image: "/images/gor2.jpg",
+    overview: "15 days covering Uganda, Rwanda, and Kenya on a budget — gorillas, savannah wildlife, and the Maasai Mara.",
+    description: "This ambitious 15-day overland tour on a budget connects Uganda's gorillas and chimp forests, Rwanda's Volcanoes National Park, and Kenya's Maasai Mara in one unbroken journey. Accommodation is in budget lodges and tented camps throughout.",
+    highlights: [
+      "Gorilla trekking — Bwindi or Rwanda",
+      "Chimpanzee tracking — Kibale",
+      "Maasai Mara game drives",
+      "Budget lodges and tented camps",
+      "Kampala–Kigali–Nairobi circuit",
+    ],
+    itinerary: [
+      { day: "Day 1: Arrive Kampala", description: "City orientation and overnight in Kampala." },
+      { day: "Day 2: Kampala to Kibale", description: "Transfer to Kibale Forest." },
+      { day: "Day 3: Chimp Tracking", description: "Kibale chimpanzee tracking." },
+      { day: "Day 4: Queen Elizabeth NP", description: "Game drive and Kazinga Channel cruise." },
+      { day: "Day 5: Ishasha to Bwindi", description: "Tree-climbing lions search, transfer to Bwindi." },
+      { day: "Day 6: Gorilla Trekking Uganda", description: "Bwindi gorilla trek." },
+      { day: "Day 7: Bwindi to Kigali", description: "Cross to Rwanda via Cyanika border." },
+      { day: "Day 8: Kigali City Tour", description: "Genocide Memorial, markets." },
+      { day: "Day 9: Volcanoes NP — Gorilla Trek", description: "Rwanda gorilla trekking." },
+      { day: "Day 10: Golden Monkey & Transfer", description: "Golden monkey trek. Transfer toward Nairobi." },
+      { day: "Day 11: Arrive Nairobi", description: "Cross into Kenya. Nairobi arrival and orientation." },
+      { day: "Day 12: Nairobi to Maasai Mara", description: "Transfer to Maasai Mara, afternoon game drive." },
+      { day: "Day 13: Full Day Maasai Mara", description: "Full day game drives — Big Five, wildebeest, and Maasai culture." },
+      { day: "Day 14: Maasai Mara to Nairobi", description: "Morning game drive, transfer back to Nairobi." },
+      { day: "Day 15: Depart Nairobi", description: "Transfer to JKIA for departure flight." },
+    ],
+  },
+
+  {
+    slug: "18-days-budget-east-africa-tour",
+    title: "18 Days Budget East Africa Tour",
+    duration: "18 Days / 17 Nights",
+    image: "/images/gor2.jpg",
+    overview: "The ultimate budget overland through Uganda, Rwanda, Tanzania, and Kenya — gorillas to Serengeti.",
+    description: "Eighteen days covering the very best of East Africa: gorilla trekking in Uganda, cultural immersion in Rwanda, the Serengeti and Ngorongoro in Tanzania, and the Maasai Mara in Kenya. This is the flagship budget overland itinerary for travellers who want it all without spending a fortune.",
+    highlights: [
+      "Gorilla trekking in Uganda and Rwanda",
+      "Serengeti National Park game drives",
+      "Ngorongoro Crater wildlife",
+      "Maasai Mara — Big Five",
+      "Budget tented camps and lodges",
+    ],
+    itinerary: [
+      { day: "Day 1: Arrive Kampala", description: "Kampala city orientation." },
+      { day: "Day 2: Kampala to Kibale", description: "Transfer to Kibale Forest." },
+      { day: "Day 3: Chimp Tracking", description: "Kibale chimpanzee tracking." },
+      { day: "Day 4: Queen Elizabeth NP", description: "Game drive and boat cruise." },
+      { day: "Day 5: Bwindi Transfer", description: "Ishasha tree-climbing lions en route." },
+      { day: "Day 6: Gorilla Trekking Uganda", description: "Bwindi mountain gorilla trek." },
+      { day: "Day 7: Cross to Rwanda", description: "Border crossing to Kigali." },
+      { day: "Day 8: Kigali City", description: "Cultural and historical city tour." },
+      { day: "Day 9: Rwanda Gorilla Trek", description: "Volcanoes NP gorilla trekking." },
+      { day: "Day 10: Transfer to Tanzania", description: "Cross into Tanzania, overnight Kigoma or Arusha route." },
+      { day: "Day 11: Arusha Orientation", description: "Arrive Arusha. Market visit and briefing." },
+      { day: "Day 12: Serengeti Entry & Game Drive", description: "Drive to Serengeti, afternoon game drive." },
+      { day: "Day 13: Full Day Serengeti", description: "Full day Big Five game drives in Serengeti." },
+      { day: "Day 14: Serengeti to Ngorongoro", description: "Transfer to Ngorongoro Crater rim lodge." },
+      { day: "Day 15: Ngorongoro Crater Floor", description: "Full day crater floor drive — world's highest wildlife density." },
+      { day: "Day 16: Tanzania to Kenya", description: "Cross into Kenya. Transfer toward Nairobi." },
+      { day: "Day 17: Maasai Mara", description: "Full day game drives in the Mara." },
+      { day: "Day 18: Nairobi Departure", description: "Transfer to JKIA for departure." },
+    ],
+  },
+
+  // ═══════════════════════════════════════════
+  // FLY-IN TOURS
+  // ═══════════════════════════════════════════
+
+  {
+    slug: "3-days-gorilla-safari-fly-in",
+    title: "3 Days Gorilla Safari Fly-In",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Fly directly from Entebbe to Bwindi and back — the fastest, most luxurious gorilla trekking experience available.",
+    description: "Skip the 8-hour road journey entirely. This fly-in safari transfers you by light aircraft from Entebbe International Airport to Kihihi or Kisoro airstrip, just minutes from Bwindi Impenetrable Forest. Combined with a premium lodge, this is the gold-standard short gorilla safari.",
+    highlights: [
+      "Return flights Entebbe–Bwindi airstrip",
+      "Gorilla trekking permit in Bwindi",
+      "Premium luxury lodge accommodation",
+      "No long road journey",
+      "Professional naturalist guide",
+    ],
+    itinerary: [
+      { day: "Day 1: Fly Entebbe to Bwindi", description: "Morning scheduled or charter flight from Entebbe to Kihihi or Kisoro airstrip (approx. 1 hour). Transfer to luxury lodge. Afternoon birding walk or nature trail. Evening briefing." },
+      { day: "Day 2: Gorilla Trekking", description: "7:00 AM UWA registration and briefing. Trek to your gorilla family. Spend one magical hour with them. Return to lodge for a celebratory lunch." },
+      { day: "Day 3: Morning Activity & Return Flight", description: "Optional Batwa cultural trail or forest walk. Transfer to airstrip for return flight to Entebbe. Arrive mid-morning." },
+    ],
+  },
+
+  {
+    slug: "3-days-fly-entebbe-to-bwindi",
+    title: "3 Days Fly Entebbe to Bwindi",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "A seamless fly-in gorilla safari — from Entebbe airport directly to Bwindi and back in three effortless days.",
+    description: "Designed for business travellers and time-pressed visitors, this safari minimises transit time and maximises the quality of each day. Fly in, trek gorillas, spend a night in luxury, then fly home. Everything is pre-arranged and professionally guided.",
+    highlights: [
+      "Direct Entebbe–Bwindi flight",
+      "One-hour gorilla trekking experience",
+      "Luxury forest lodge",
+      "Birding and nature walks included",
+      "Seamless scheduling — no road surprises",
+    ],
+    itinerary: [
+      { day: "Day 1: Entebbe to Bwindi by Air", description: "Pick-up at Entebbe airport, flight to Kihihi airstrip, transfer to lodge." },
+      { day: "Day 2: Gorilla Trek Day", description: "Full gorilla trekking experience in Bwindi." },
+      { day: "Day 3: Forest Walk & Return Flight", description: "Morning forest walk, afternoon flight back to Entebbe." },
+    ],
+  },
+
+  {
+    slug: "3-days-bwindi-flying-safari",
+    title: "3 Days Bwindi Flying Safari",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Charter flight gorilla safari to Bwindi — a completely bespoke fly-in experience for private parties and couples.",
+    description: "This private flying safari is operated on a fully bespoke basis. Charter your own small aircraft from Entebbe directly to Bwindi's nearest airstrip. Choose your lodge, your departure time, and your optional activities. The gorilla trekking experience is the same for all — extraordinary.",
+    highlights: [
+      "Private charter flight to Bwindi",
+      "Fully bespoke itinerary",
+      "Gorilla trekking permit",
+      "Choice of premium lodge",
+      "Dedicated private guide",
+    ],
+    itinerary: [
+      { day: "Day 1: Private Charter Entebbe to Bwindi", description: "Your private charter departs at your preferred time. Arrive Bwindi, transfer to lodge, afternoon nature activity of your choice." },
+      { day: "Day 2: Gorilla Trekking", description: "Private guide leads your trek. Full gorilla encounter." },
+      { day: "Day 3: Activity & Return Charter", description: "Morning optional activity. Private charter returns you to Entebbe." },
+    ],
+  },
+
+  {
+    slug: "5-days-fly-in-mgahinga-and-lake-bunyonyi",
+    title: "5 Days Fly-In Mgahinga & Lake Bunyonyi",
+    duration: "5 Days / 4 Nights",
+    image: "/images/mga1.jpg",
+    overview: "Fly into the Virungas for gorilla trekking in Mgahinga then unwind at the idyllic Lake Bunyonyi — Uganda's most beautiful lake.",
+    description: "This 5-day fly-in safari combines two of Uganda's most compelling southwestern destinations. Fly to Kisoro airstrip, trek gorillas in Mgahinga National Park, then transfer to the magical Lake Bunyonyi for two nights of island relaxation, canoeing, and cultural immersion.",
+    highlights: [
+      "Fly-in to Kisoro airstrip",
+      "Gorilla trekking in Mgahinga",
+      "Golden monkey tracking",
+      "Lake Bunyonyi island retreat",
+      "Traditional canoe excursions",
+    ],
+    itinerary: [
+      { day: "Day 1: Fly Entebbe to Kisoro", description: "Morning flight to Kisoro. Transfer to Mgahinga lodge with volcano views. Evening briefing." },
+      { day: "Day 2: Gorilla Trekking Mgahinga", description: "Trek to Nyakagezi gorilla family. One hour encounter." },
+      { day: "Day 3: Golden Monkey & Transfer to Lake Bunyonyi", description: "Morning golden monkey tracking. Afternoon drive to Lake Bunyonyi. Sunset canoe on the lake." },
+      { day: "Day 4: Lake Bunyonyi Island Exploration", description: "Full day canoeing to islands, village hikes, cultural visits. Swimming in bilharzia-free waters." },
+      { day: "Day 5: Return to Entebbe", description: "Road transfer to Kampala or Entebbe." },
+    ],
+  },
+
+  {
+    slug: "5-days-gorilla-and-chimp-tracking",
+    title: "5 Days Gorilla & Chimp Tracking",
+    duration: "5 Days / 4 Nights",
+    image: "/images/gor2.jpg",
+    overview: "Uganda's ultimate fly-in primate double: chimpanzees in Kibale and gorillas in Bwindi — no long road journeys.",
+    description: "Fly into Entebbe, transfer by road to Kibale for chimpanzee tracking, then take an internal flight south to Bwindi for gorilla trekking before flying back to Entebbe. The fly-in on the Bwindi leg eliminates the longest road section and keeps the itinerary fresh and efficient.",
+    highlights: [
+      "Chimpanzee tracking — Kibale Forest",
+      "Mountain gorilla trekking — Bwindi",
+      "Internal flight Entebbe–Bwindi",
+      "Bigodi Wetland walk",
+      "Premium lodges throughout",
+    ],
+    itinerary: [
+      { day: "Day 1: Entebbe to Kibale by Road", description: "Transfer from Entebbe to Kibale Forest lodge." },
+      { day: "Day 2: Chimpanzee Tracking", description: "Kibale chimp trek and Bigodi Wetland walk." },
+      { day: "Day 3: Fly to Bwindi", description: "Transfer to Entebbe for internal flight to Kihihi/Kisoro airstrip, transfer to Bwindi lodge." },
+      { day: "Day 4: Gorilla Trekking", description: "UWA briefing and gorilla trek in Bwindi." },
+      { day: "Day 5: Return Flight to Entebbe", description: "Morning forest activity, afternoon return flight to Entebbe." },
+    ],
+  },
+
 ];

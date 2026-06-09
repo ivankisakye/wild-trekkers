@@ -45,10 +45,10 @@ const BookingForm = ({ tourTitle, tourPrice }) => {
 
     // Send email using EmailJS
     emailjs.send(
-      'service_un0mlzf',  // Your Service ID
-      'template_5ras0oc', // Your Booking Template ID
+      'service_un0mlzf',  // ✅ Your Service ID - verify this is correct
+      'template_5ras0oc', // ✅ Your Booking Template ID - verify this is correct
       templateParams,
-      'G8iTh1zVXOcmAHhnz' // Your Public Key
+      'G8iTh1zVXOcmAHhnz' // ✅ Your Public Key - verify this is correct
     )
     .then((result) => {
       console.log('Email sent successfully:', result.text);
