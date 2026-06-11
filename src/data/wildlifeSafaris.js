@@ -8,7 +8,7 @@ export const wildlifeSafaris = [
     duration: "3 Days / 2 Nights",
     image: "/images/murchison.jpg",
     overview: "Experience Uganda's largest national park with the mighty Murchison Falls and abundant wildlife along the Nile.",
-    description: "This 3-day safari takes you to Murchison Falls National Park, Uganda's largest conservation area. Witness the powerful Nile River exploding through a narrow gorge, spot the Big Four (lion, leopard, elephant, buffalo), and enjoy boat cruises and game drives.",
+    description: "This 3-days safari takes you to Murchison Falls National Park, Uganda's largest conservation area. Witness the powerful Nile River exploding through a narrow gorge, spot the Big Four (lion, leopard, elephant, buffalo), and enjoy boat cruises and game drives.",
     highlights: [
       "Game drive in the Nile Delta",
       "Boat cruise to the bottom of Murchison Falls",
