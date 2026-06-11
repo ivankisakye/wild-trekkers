@@ -225,7 +225,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-safari-sand transition-all"
-                  placeholder="Mark Suubi"
+                  placeholder="John Doe"
                 />
               </div>
 
@@ -242,7 +242,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-safari-sand transition-all"
-                    placeholder="marks@example.com"
+                    placeholder="doe@example.com"
                   />
                 </div>
                 <div>
@@ -255,7 +255,7 @@ const Contact = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-safari-sand transition-all"
-                    placeholder="+256 758 434 429"
+                    placeholder="+256 709090909"
                   />
                 </div>
               </div>
