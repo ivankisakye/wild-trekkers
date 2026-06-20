@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from 'react';
-import { X, Send, RotateCcw, ChevronLeft } from 'lucide-react';
 
 /* ---------------------------------------------------------------------- */
 /*  CONFIG — edit these to match your business                            */
@@ -8,7 +7,7 @@ import { X, Send, RotateCcw, ChevronLeft } from 'lucide-react';
 const PHONE_NUMBER = '256758434429'; // no "+" needed for wa.me
 const AGENT_NAME = 'Mark';
 const AGENT_TITLE = 'Travel Consultant';
-const AGENT_AVATAR = 'https://api.dicebear.com/9.x/lorelei/svg?seed=Mark&backgroundColor=ffe4c4';
+const AGENT_AVATAR = 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80';
 
 const GREETING =
   "Hi there! \uD83D\uDC4B I'm Mark. I help travelers plan unforgettable trips to Uganda. What are you interested in?";
@@ -68,6 +67,32 @@ const CATEGORIES = [
 const WhatsAppGlyph = ({ size = 30 }) => (
   <svg viewBox="0 0 32 32" width={size} height={size} fill="currentColor" aria-hidden="true">
     <path d="M16.04 3C9.37 3 3.96 8.4 3.96 15.06c0 2.22.6 4.3 1.65 6.1L3 29l8.02-2.55a12.9 12.9 0 0 0 5.02 1c6.67 0 12.08-5.4 12.08-12.07C28.12 8.4 22.71 3 16.04 3Zm0 22.02c-1.7 0-3.36-.45-4.8-1.32l-.34-.2-4.76 1.52 1.55-4.64-.22-.36a9.9 9.9 0 0 1-1.53-5.96 10.06 10.06 0 1 1 10.1 11Zm5.52-7.46c-.3-.15-1.78-.88-2.06-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.96 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.68-2.08-.18-.3-.02-.46.13-.61.14-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.65-.94-2.26-.25-.6-.5-.5-.68-.5l-.58-.01c-.2 0-.53.07-.8.38-.28.3-1.05 1.02-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.13 3.25 5.16 4.56.72.31 1.28.5 1.72.64.72.23 1.38.2 1.9.12.58-.09 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.13-.28-.2-.58-.35Z" />
+  </svg>
+);
+
+const IconX = ({ size = 18 }) => (
+  <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" strokeWidth={2.4} strokeLinecap="round" aria-hidden="true">
+    <path d="M18 6 6 18M6 6l12 12" />
+  </svg>
+);
+
+const IconSend = ({ size = 17 }) => (
+  <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="m22 2-7 20-4-9-9-4 20-7Z" />
+    <path d="M11 13 22 2" />
+  </svg>
+);
+
+const IconRestart = ({ size = 16 }) => (
+  <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M3 12a9 9 0 1 0 2.64-6.36L3 8" />
+    <path d="M3 3v5h5" />
+  </svg>
+);
+
+const IconBack = ({ size = 20 }) => (
+  <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="m15 18-6-6 6-6" />
   </svg>
 );
 
@@ -189,7 +214,7 @@ const WhatsAppButton = () => {
             className="absolute -right-2 -top-2 flex h-5 w-5 items-center justify-center rounded-full bg-gray-700 text-white hover:bg-gray-900"
             aria-label="Dismiss"
           >
-            <X size={11} />
+            <IconX size={11} />
           </button>
           <p className="text-[13px] leading-snug text-gray-700">
             👋 Planning a trip to Uganda? I can help you sort it out in under a minute.
@@ -217,7 +242,7 @@ const WhatsAppButton = () => {
           <div className="flex items-center gap-3 bg-gradient-to-r from-[#075E54] to-[#128C7E] px-4 py-3 text-white">
             {phase === 'sent' ? (
               <button onClick={handleRestart} className="text-white/80 hover:text-white" aria-label="Start over">
-                <ChevronLeft size={20} />
+                <IconBack size={20} />
               </button>
             ) : (
               <div className="h-10 w-10 overflow-hidden rounded-full bg-white/20 ring-2 ring-white/40">
@@ -242,11 +267,11 @@ const WhatsAppButton = () => {
             </div>
             {phase !== 'intro' && (
               <button onClick={handleRestart} className="text-white/70 hover:text-white" aria-label="Restart conversation" title="Start over">
-                <RotateCcw size={16} />
+                <IconRestart size={16} />
               </button>
             )}
             <button onClick={() => setOpen(false)} className="text-white/80 hover:text-white" aria-label="Close chat">
-              <X size={20} />
+              <IconX size={20} />
             </button>
           </div>
 
@@ -322,7 +347,7 @@ const WhatsAppButton = () => {
                   aria-label="Send to WhatsApp"
                   className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white shadow-sm transition-transform hover:scale-105 disabled:cursor-not-allowed disabled:opacity-40"
                 >
-                  <Send size={17} />
+                  <IconSend size={17} />
                 </button>
               </div>
               <p className="mt-1.5 text-center text-[10.5px] text-gray-400">
