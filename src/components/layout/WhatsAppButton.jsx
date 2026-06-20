@@ -10,53 +10,53 @@ const AGENT_TITLE = 'Travel Consultant';
 const AGENT_AVATAR = 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&q=80';
 
 const GREETING =
-  "Hi there! \uD83D\uDC4B I'm Mark. I help travelers plan unforgettable trips to Uganda. What are you interested in?";
+  "Hello 👋 Welcome to Wild Treker Safaris Uganda! May I know your name?";
 
 const CATEGORIES = [
   {
     id: 'gorilla',
     label: 'Gorilla Trekking',
-    emoji: '\uD83E\uDD8D',
+    emoji: '🦍',
     accent: '#2F6B3A',
     soft: '#EAF3EA',
     followUp:
-      "Gorilla trekking is the one trip people never forget \uD83C\uDF3F Permits sell out months ahead, so tell me: how many people, and roughly when are you hoping to go?",
+      "Gorilla trekking is the one trip people never forget 🌿 Permits sell out months ahead, so tell me: how many people, and roughly when are you hoping to go?",
   },
   {
     id: 'safari',
     label: 'Wildlife Safaris',
-    emoji: '\uD83E\uDD81',
+    emoji: '🦁',
     accent: '#C97A2B',
     soft: '#FBF1E6',
     followUp:
-      "Love it \uD83D\uDC18 Which park are you drawn to (or not sure yet?), and how many days were you thinking?",
+      "Love it 🐘 Which park are you drawn to (or not sure yet?), and how many days were you thinking?",
   },
   {
     id: 'destinations',
     label: 'Destinations',
-    emoji: '\uD83D\uDDFA\uFE0F',
+    emoji: '🗺️',
     accent: '#1F6F78',
     soft: '#E8F3F4',
     followUp:
-      "Great choice to start with \u2014 Uganda has a lot of ground to cover. Which destination(s) have caught your eye, and when are you thinking of traveling?",
+      "Great choice to start with — Uganda has a lot of ground to cover. Which destination(s) have caught your eye, and when are you thinking of traveling?",
   },
   {
     id: 'experiences',
     label: 'Experiences',
-    emoji: '\u2728',
+    emoji: '✨',
     accent: '#7B5EA7',
     soft: '#F0ECF7',
     followUp:
-      "Nice \u2014 are you after culture, adventure, food, relaxation, or a mix of it all? Tell me a bit more about what excites you.",
+      "Nice — are you after culture, adventure, food, relaxation, or a mix of it all? Tell me a bit more about what excites you.",
   },
   {
     id: 'other',
     label: 'Something else',
-    emoji: '\uD83D\uDCAC',
+    emoji: '💬',
     accent: '#5B6168',
     soft: '#EEEFF1',
     followUp:
-      "Of course \u2014 tell me a little about what you're looking for and I'll point you in the right direction.",
+      "Of course — tell me a little about what you're looking for and I'll point you in the right direction.",
   },
 ];
 
@@ -103,12 +103,13 @@ const IconBack = ({ size = 20 }) => (
 const WhatsAppButton = () => {
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState([]);
-  const [phase, setPhase] = useState('intro'); // intro | category | details | sent
+  const [phase, setPhase] = useState('intro'); // intro | name | category | details | sent
   const [selected, setSelected] = useState(null);
   const [draft, setDraft] = useState('');
   const [typing, setTyping] = useState(false);
   const [teaser, setTeaser] = useState(false);
   const [avatarFailed, setAvatarFailed] = useState(false);
+  const [userName, setUserName] = useState('');
   const scrollRef = useRef(null);
   const teaserTimer = useRef(null);
 
@@ -135,15 +136,32 @@ const WhatsAppButton = () => {
       setTimeout(() => {
         setTyping(false);
         pushMessage({ from: 'Mark', text: GREETING });
-        setPhase('category');
+        setPhase('name');
       }, 900);
     }
+  };
+
+  const handleNameSubmit = () => {
+    if (!userName.trim()) return;
+    const name = userName.trim();
+    pushMessage({ from: 'user', text: name });
+    setPhase('typing2');
+    setTyping(true);
+    setTimeout(() => {
+      setTyping(false);
+      pushMessage({ 
+        from: 'Mark', 
+        text: `Wonderful to meet you, ${name}! 😊 Thank you for your interest in Wild Trekker Safaris Uganda. I'm Mark, your travel consultant. What kind of adventure would you like to explore?`
+      });
+      setPhase('category');
+    }, 1000);
+    setUserName('');
   };
 
   const handlePick = (cat) => {
     setSelected(cat);
     pushMessage({ from: 'user', text: `${cat.emoji} ${cat.label}` });
-    setPhase('typing2');
+    setPhase('typing3');
     setTyping(true);
     setTimeout(() => {
       setTyping(false);
@@ -161,7 +179,7 @@ const WhatsAppButton = () => {
     setTyping(true);
     setTimeout(() => {
       setTyping(false);
-      pushMessage({ from: 'Mark', text: "Perfect, thank you! Opening WhatsApp so we can continue there \u2705" });
+      pushMessage({ from: 'Mark', text: "Perfect, thank you! Opening WhatsApp so we can continue there ✅" });
       window.open(url, '_blank', 'noopener,noreferrer');
       setPhase('sent');
     }, 700);
@@ -172,6 +190,7 @@ const WhatsAppButton = () => {
     setMessages([]);
     setSelected(null);
     setDraft('');
+    setUserName('');
     setPhase('intro');
     setTimeout(startConversation, 50);
   };
@@ -179,7 +198,11 @@ const WhatsAppButton = () => {
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
-      handleSend();
+      if (phase === 'name') {
+        handleNameSubmit();
+      } else if (phase === 'details') {
+        handleSend();
+      }
     }
   };
 
@@ -227,9 +250,9 @@ const WhatsAppButton = () => {
         <button
           onClick={startConversation}
           aria-label="Chat with us on WhatsApp"
-          className="wa-fab-ring fixed bottom-6 left-6 z-[9999] flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform duration-300 hover:scale-110 hover:bg-[#20BA5C]"
+          className="wa-fab-ring fixed bottom-6 left-6 z-[9999] flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg transition-transform duration-300 hover:scale-110 hover:bg-[#20BA5C]"
         >
-          <WhatsAppGlyph size={28} />
+          <WhatsAppGlyph size={24} />
         </button>
       )}
 
@@ -297,6 +320,28 @@ const WhatsAppButton = () => {
                   <span className="wa-dot" style={{ animationDelay: '0ms' }} />
                   <span className="wa-dot" style={{ animationDelay: '150ms' }} />
                   <span className="wa-dot" style={{ animationDelay: '300ms' }} />
+                </div>
+              </div>
+            )}
+
+            {phase === 'name' && !typing && (
+              <div className="wa-msg flex flex-col gap-2 pt-1">
+                <div className="flex gap-2">
+                  <input
+                    value={userName}
+                    onChange={(e) => setUserName(e.target.value)}
+                    onKeyDown={handleKeyDown}
+                    placeholder="What should I call you?"
+                    className="flex-1 rounded-xl border border-gray-200 bg-white px-3.5 py-2.5 text-[13.5px] text-gray-800 outline-none focus:border-[#25D366]"
+                    autoFocus
+                  />
+                  <button
+                    onClick={handleNameSubmit}
+                    disabled={!userName.trim()}
+                    className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-[#25D366] text-white shadow-sm transition-transform hover:scale-105 disabled:cursor-not-allowed disabled:opacity-40"
+                  >
+                    <IconSend size={17} />
+                  </button>
                 </div>
               </div>
             )}
