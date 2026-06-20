@@ -47,6 +47,12 @@ const WildlifeSafariDetails = () => {
                   <FaClock className="mr-2 text-amber-500" />
                   <span>{safari.duration}</span>
                 </div>
+                {safari.price && (
+                  <div className="flex items-center">
+                    <FaDollarSign className="mr-2 text-amber-500" />
+                    <span>{safari.price}</span>
+                  </div>
+                )}
               </div>
             </motion.div>
           </div>
@@ -110,7 +116,7 @@ const WildlifeSafariDetails = () => {
               <div className="sticky top-24">
                 <BookingForm 
                   tourTitle={safari.title} 
-                  tourPrice="Contact for pricing" 
+                  tourPrice={safari.price ? `${safari.price}${safari.priceNote ? ` (${safari.priceNote})` : ''}` : "Contact for pricing"} 
                 />
               </div>
             </div>

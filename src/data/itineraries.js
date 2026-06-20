@@ -4,6 +4,112 @@ export const itineraries = [
   // GORILLA TREKKING OFFERS
   // ═══════════════════════════════════════════
 
+
+    {
+    slug: "3-days-gorilla-habituation-experience",
+    title: "3 Days Gorilla Habituation Experience",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    price: "$650",
+    priceNote: "per person (sharing). Single room supplement $40. Excludes Gorilla Habituation permit of $1,500 per person per trek.",
+    overview: "Spend four extraordinary hours with mountain gorillas in Bwindi's southern sector — a rare, in-depth encounter designed for travelers who want more than the standard one-hour trek.",
+    description: "The Gorilla Habituation Experience is one of Uganda's most exclusive wildlife encounters, offered only in the southern sector of Bwindi Impenetrable Forest National Park. Unlike standard gorilla trekking, this experience gives you four hours with the gorilla family alongside researchers and rangers, learning how gorillas are gradually habituated to human presence. Limited to small groups of just 6 people, this 3-day safari combines a scenic overland journey with an unforgettable, in-depth gorilla encounter.",
+    highlights: [
+      "Scenic drive to Bwindi Impenetrable Forest",
+      "Four-hour Gorilla Habituation trekking experience",
+      "Birding through Bwindi's southern sector",
+      "Small group safari, maximum 6 people",
+      "In-depth insight from researchers and rangers",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala / Entebbe to Bwindi", description: "Depart for the 9-10 hour drive southwest to Bwindi Impenetrable Forest National Park. Stop at the Equator crossing for photos and an informative talk, then continue to Mbarara town for lunch. Proceed through Kabale on the scenic drive to Bwindi, arriving at your lodge in the evening." },
+      { day: "Day 2: Gorilla Habituation Trekking", description: "Early breakfast, then transfer to the park headquarters for registration and a briefing on the dos and don'ts of the four-hour Gorilla Habituation Trek. Trek through thick creepers and undergrowth with ranger guides to locate the gorillas, spotting other primates, birds, and rare tree species along the way. Spend four hours with the gorilla family alongside researchers, learning about the habituation process. Return to the park headquarters for a debrief and receive your habituation certificate." },
+      { day: "Day 3: Return to Kampala / Entebbe", description: "Morning breakfast, then begin the return drive to Kampala or Entebbe along the same scenic route, or connect to your onward flight." },
+    ],
+  },
+
+  //==========================================================
+    {
+    slug: "3-days-gorilla-habituation-safari",
+    title: "3 Days Gorilla Habituation Safari",
+    duration: "3 Days / 2 Nights",
+    image: "/images/gor2.jpg",
+    price: "$650",
+    priceNote: "per person.",
+    overview: "Spend up to four unforgettable hours deep in Bwindi Impenetrable Forest, taking part in the process of habituating mountain gorillas to human presence — with a remarkable 99% chance of finding them.",
+    description: "This 3-day trip takes you deep into Bwindi Impenetrable Forest National Park, home to nearly half of the world's remaining mountain gorillas. Traveling in a small group of just 4 tourists alongside researchers and ranger guides, you'll join the gorilla habituation process itself, tracking a family group and spending an extended four hours observing them in near silence. It's a rare, immersive alternative to standard gorilla trekking, rounded out with a visit to the local Batwa community.",
+    highlights: [
+      "Scenic drive to Bwindi Impenetrable Forest",
+      "Four-hour Gorilla Habituation experience with researchers and rangers",
+      "Small group of just 4 tourists per trek",
+      "Batwa community visit and cultural storytelling",
+      "Gorilla tracking certificate on completion",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala / Entebbe to Bwindi Impenetrable National Park", description: "Pickup from your hotel in Kampala/Entebbe or from Entebbe International Airport for the drive to Bwindi Impenetrable Forest National Park. Stop at the Equator for photographs, enjoy lunch en-route, and pass through local communities and scenic countryside along the way. Drive time approximately 8-9 hours. Overnight at Rushaga Gorilla Havens Lodge/Rushaga Gorilla Camp." },
+      { day: "Day 2: Gorilla Habituation Experience and Community Visit", description: "After breakfast, transfer to the park headquarters for briefing from Uganda Wildlife Authority ranger guides, who allocate you to a gorilla family group. In a group of 4 tourists with researchers and ranger guides, trek into the thick forest to find the gorillas, picking up their trail from where they were last seen. Spend four hours observing and participating in the habituation process, maintaining maximum silence and taking photographs. Receive your gorilla habituation certificate afterward. In the evening, visit the nearby Batwa community for cultural storytelling and entertainment. Overnight at Rushaga Gorilla Havens Lodge/Rushaga Gorilla Camp." },
+      { day: "Day 3: Return to Kampala / Entebbe", description: "Early breakfast, then begin the journey back to Kampala/Entebbe, with stopovers for photography at scenic attractions along the way. Arrive in the late afternoon and transfer to your hotel for dinner and overnight, or to the airport for your departure." },
+    ],
+  },
+
+  //==========================================================
+    {
+    slug: "5-days-uganda-gorilla-safari",
+    title: "5 Days Uganda Gorilla Safari",
+    duration: "5 Days / 4 Nights",
+    image: "/images/gor2.jpg",
+    price: "$1000",
+    priceNote: "per person (sharing). Single room supplement $85. Excludes Gorilla permit of $800 and Chimpanzee permit of $250 per person per trek.",
+    overview: "Combine mountain gorilla trekking in Bwindi with chimpanzee tracking in Kibale Forest, plus a community-led wetland walk in Bigodi — Uganda's two great primate experiences in one safari.",
+    description: "This 5-day safari pairs Uganda's two iconic primate encounters. Begin with a mountain gorilla trek in Bwindi Impenetrable National Park, then journey to Kibale Forest National Park for chimpanzee tracking and a walk through the Bigodi wetlands, a community-run initiative that channels tourism proceeds back into local development. Along the way, enjoy scenic drives through southwestern Uganda's rolling hills, the Equator crossing, and a visit to the Batwa community.",
+    highlights: [
+      "Scenic drive to Bwindi",
+      "Mountain gorilla trekking",
+      "Birding",
+      "Visit Batwa community",
+      "Scenic drive to Kibale",
+      "Chimpanzee trekking",
+      "Bigodi wetland walk",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala/Entebbe to Bwindi Impenetrable National Park", description: "Early morning pickup and briefing, then scenic drive to southwestern Uganda. Stop at the Equator for photos, pass through Mbarara town and its grasslands and long-horned cattle, then continue through banana plantations and rolling hills to Bwindi. Check in, dinner, and overnight at the lodge. Drive time approximately 8-9 hours." },
+      { day: "Day 2: Gorilla Trekking", description: "After breakfast, transfer to the park headquarters for a 7:30am briefing on gorilla trekking dos and don'ts. Trek through the forest with a ranger, spotting tree species, birds, and primates such as black and white colobus monkeys, until you reach a gorilla family. Spend one hour observing and photographing the gorillas, followed by lunch in the jungle. Return to the lodge for a certificate celebration, then visit the Batwa Community in the evening for traditional dance and storytelling." },
+      { day: "Day 3: Transfer to Kibale Forest National Park", description: "Morning coffee, then drive to Fort Portal town in western Uganda through beautiful, lush scenery. Check in at the lodge, take a brief city tour, and overnight. Drive time approximately 6-7 hours." },
+      { day: "Day 4: Chimpanzee Trekking and Bigodi Wetland Walk", description: "Early breakfast, then transfer to Kanyanchu park headquarters for a briefing on chimpanzee trekking etiquette. In groups of 6 with ranger guides, track chimpanzees through the forest, spending one hour observing and photographing them once found. Return for lunch at the lodge, then in the evening take a walk through the Bigodi wetlands, a community-run initiative supporting local development." },
+      { day: "Day 5: Return to Kampala/Entebbe", description: "After breakfast, bid farewell to the lodge and transfer back to Entebbe/Kampala for your onward international flight. Drive time approximately 5-6 hours." },
+    ],
+  },
+
+  //==========================================================
+    {
+    slug: "5-days-uganda-gorilla-tours",
+    title: "5 Days Uganda Gorilla Tours",
+    duration: "5 Days / 4 Nights",
+    image: "/images/gor2.jpg",
+    price: "$1170",
+    priceNote: "per person (sharing). Single room supplement $85. Excludes Gorilla permit of $800 per person per trek.",
+    overview: "Designed for travelers on a tighter schedule, this 5-day tour combines mountain gorilla trekking in Bwindi with game drives and a boat cruise in Queen Elizabeth National Park, departing and returning via Kigali.",
+    description: "Our 5 Day Uganda Gorilla and Game Tour is built for travelers who want to combine a once-in-a-lifetime gorilla trekking experience with classic African wildlife viewing, without spending weeks on the road. The journey begins in Kigali, crosses into Bwindi Impenetrable National Park for gorilla trekking, then continues to Queen Elizabeth National Park for game drives across the Kasenyi plains and a boat cruise on the Kazinga Channel, home to the highest concentration of hippos in the world.",
+    highlights: [
+      "Scenic drive to Bwindi",
+      "Gorilla trekking",
+      "Birding",
+      "Visit the Batwa Community",
+      "Scenic drive to Queen Elizabeth National Park",
+      "Game drive in the Kasenyi plains",
+      "Boat cruise on the Kazinga Channel",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Bwindi Impenetrable National Park", description: "After an early cup of coffee, meet your guide for a short briefing on the entire 5-day trip and the en-route stops ahead. Drive to the southwest, stopping at the Genocide Memorial site and for lunch in Kabale town, before continuing on to Bwindi through beautiful rolling hill scenery. Arrive at your lodge, check in, relax, and have dinner. Meal plan: Lunch and Dinner. Accommodation (optional): Trekkers Tavern Cottages / Rushaga Gorilla Havens Lodge / Buhoma Community Rest Camp. Drive time approximately 4-5 hours." },
+      { day: "Day 2: Gorilla Trekking", description: "After early morning breakfast, meet your guide and drive to the park headquarters for a 7:30am briefing with other travelers on the dos and don'ts of meeting the gorillas. Set off on the hike with a ranger guide, which can take 30 minutes to three-quarters of a day depending on where the gorillas are. Along the trek, spot different tree species, birds, and primates such as black and white colobus monkeys. Steep, muddy slopes are common, so a walking stick is advised and a minimum level of fitness is required. Once you find the gorilla family, spend one hour at close range for photos while rangers and wardens share informative talks. Enjoy lunch in the jungle, then return to the lodge to celebrate with a gorilla certificate. In the evening, visit the Batwa Community, the first people who lived in Bwindi Impenetrable Forest, for traditional dances, poems, and storytelling. Meal plan: Breakfast, Packed Lunch, and Dinner. Accommodation (optional): Trekkers Tavern Cottages / Rushaga Bwindi Gorilla Lodge / Buhoma Community Rest Camp." },
+      { day: "Day 3: Depart for Queen Elizabeth National Park", description: "After breakfast, meet your guide and begin the scenic drive to Queen Elizabeth National Park, arriving in time for lunch and check-in at the lodge. Take a short nap, then head out for an evening game drive in the Kasenyi plains to look for late grazers. Return to the lodge for overnight. Meal plan: Breakfast, Lunch, and Dinner. Accommodation: Elephant Hab Lodge / Buffalo Safari Lodge. Drive time approximately 4-5 hours." },
+      { day: "Day 4: Morning Game Drive and Afternoon Boat Cruise on the Kazinga Channel", description: "Early morning breakfast, then an early game drive in the Kasenyi plains, the Uganda Kob's breeding ground and a favorite feeding spot for carnivores, in search of buffalo, Uganda kob, waterbuck, warthog, and possibly lions. After lunch, take a boat cruise on the Kazinga Channel, the highlight of the park's activities, home to the highest concentration of hippos in the world along with buffalo, crocodiles, and numerous birds gathering at the shoreline. Meal plan: Breakfast, Lunch, and Dinner. Accommodation: Elephant Hab Lodge / Buffalo Safari Lodge." },
+      { day: "Day 5: Transfer back to Kigali", description: "After breakfast, bid farewell to the lodge and transfer back to Kigali for your international flight out. Meal plan: Breakfast and Lunch. Drive time approximately 5-6 hours." },
+    ],
+  },
+
+
+
   {
     slug: "2-days-rwanda-gorilla-safari",
     title: "2 Days Rwanda Gorilla Safari",

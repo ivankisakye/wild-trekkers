@@ -2,6 +2,125 @@ export const wildlifeSafaris = [
   // ═══════════════════════════════════════════
   // CLASSIC WILDLIFE SAFARIS
   // ═══════════════════════════════════════════
+
+
+  {
+    slug: "3-days-bwindi-safari",
+    title: "3 Days Bwindi Safari",
+    duration: "3 Days / 2 Nights",
+    image: "/images/walk.jpg",
+    price: "$630",
+    priceNote: "per person (sharing). Single room supplement $40. Excludes Gorilla permit of $800 per person per trek.",
+    overview: "Trek through Bwindi Impenetrable National Park to encounter mountain gorillas in their natural habitat, alongside rich birdlife and Batwa cultural heritage.",
+    description: "Bwindi Impenetrable National Park is the largest sanctuary for mountain gorillas in the world, home to roughly 800 individuals across 22 habituated groups. Covering 321 sq km in southwestern Uganda, this ancient forest also shelters chimpanzees, colobus monkeys, and hundreds of bird species. This 3-day safari combines a scenic drive through Uganda's rolling hills with an unforgettable gorilla trekking experience and a visit to the Batwa community, the forest's original inhabitants.",
+    highlights: [
+      "Scenic drive to Bwindi Impenetrable Forest",
+      "Mountain gorilla trekking with a habituated gorilla family",
+      "Birding through ancient rainforest",
+      "Visit to the Batwa Community",
+      "Gorilla trekking certificate on completion",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala/Entebbe to Bwindi Impenetrable National Park", description: "Early morning pickup from your hotel for a short briefing, then depart for southwest Uganda. Stop at the Equator for photos, pass through Mbarara town and its grazing long-horned cattle, and continue through banana plantations and rolling hills to Bwindi. Check in at your lodge and have dinner. Drive time approximately 8-9 hours." },
+      { day: "Day 2: Gorilla Trekking", description: "After breakfast, transfer to the park headquarters for a 7:30am briefing on gorilla trekking dos and don'ts. Trek through the forest with a ranger, spotting tree species, birds, and primates along the way, until you reach a habituated gorilla family. Spend one hour observing and photographing the gorillas. Enjoy lunch in the jungle, then return to the lodge for a certificate celebration. In the evening, visit the Batwa Community for traditional dance and storytelling." },
+      { day: "Day 3: Departure back to Kampala", description: "Morning breakfast and farewell to the lodge, then begin the scenic drive back through Uganda's rolling hills and terraces, often called the 'Switzerland of Uganda.' Drive time approximately 8-9 hours." },
+    ],
+  },
+  //=========================================================================
+    {
+    slug: "8-days-uganda-primates-and-wildlife-safari-through-kigali",
+    title: "8 Days Uganda Primates and Wildlife Safari through Kigali",
+    duration: "8 Days / 7 Nights",
+    image: "/images/walk.jpg",
+    price: "$2600",
+    priceNote: "per person.",
+    overview: "Trek all of Uganda's prime primates in one all-inclusive journey — Golden Monkeys in Mgahinga, Mountain Gorillas in Bwindi, and Chimpanzees in Kibale — combined with wildlife game drives in Queen Elizabeth National Park.",
+    description: "This 8-day safari starts and ends in Kigali, with return airport transfers included, and gives you the rare opportunity to trek all three of Uganda's prime primates in a single trip: Golden Monkeys in Mgahinga Gorilla National Park, Mountain Gorillas in Bwindi Impenetrable Forest, and Chimpanzees in Kibale Forest National Park. Along the way, you'll also explore Queen Elizabeth National Park for game drives and a boat cruise on the Kazinga Channel in search of the Big 4 animals, making this a complete primates-and-wildlife experience.",
+    highlights: [
+      "Golden Monkey trekking in Mgahinga Gorilla National Park",
+      "Mountain Gorilla trekking in Bwindi Impenetrable Forest",
+      "Chimpanzee trekking in Kibale Forest National Park",
+      "Game drives in Queen Elizabeth National Park",
+      "Boat cruise on the Kazinga Channel",
+      "Bigodi wetland nature walk",
+      "Optional visit to the Kigali Genocide Museum",
+    ],
+    itinerary: [
+      { day: "Day 1: Kigali to Mgahinga Gorilla National Park", description: "Pickup from the airport or your hotel in Kigali, then drive north toward Mgahinga Gorilla National Park. Optional stop at the Kigali Genocide Museum, plus a stopover for lunch en route. Dinner and overnight at Lake Chahafi Resort or Lake Mulehe Safari Lodge." },
+      { day: "Day 2: Golden Monkey Tracking and Transfer to Bwindi", description: "Morning breakfast, then assemble at the park headquarters for a briefing from rangers on golden monkey tracking dos and don'ts. Head into the forest for the tracking exercise, which can take 1-9 hours depending on the monkeys' movement. Spend up to one hour with them, then collect your tracking certificate at the park headquarters before continuing to Bwindi Impenetrable National Park. Dinner and overnight at Nkuringo Bwindi Lodge (Luxury), Gorilla Leisure Lodge (Mid-Range), or Rushaga Gorilla Lodge (Budget)." },
+      { day: "Day 3: Gorilla Trekking in Bwindi", description: "After breakfast, head to the park headquarters for briefing from Uganda Wildlife Authority ranger guides. Rangers lead you into the thick impenetrable forest to search for mountain gorillas, picking up the trail from where they were last seen — a search that can take 3-8 hours. Once found, spend one hour with the gorillas in maximum silence, taking photographs. Return late to the lodge for dinner and overnight at Nkuringo Bwindi Lodge (Luxury), Gorilla Leisure Lodge (Mid-Range), or Rushaga Gorilla Lodge (Budget)." },
+      { day: "Day 4: Drive to Queen Elizabeth National Park", description: "Wake up early, have breakfast, and check out to meet your driver guide for the journey to Queen Elizabeth National Park. Arrive in the evening and check in at the lodge. Dinner and overnight at Elephant Plains Lodge (Luxury), Elephant Hab Lodge (Mid-Range), or Bush Lodge (Budget)." },
+      { day: "Day 5: Morning Game Drive – Afternoon Boat Cruise on Kazinga Channel", description: "Morning breakfast, then embark on a 2-3 hour game drive through the Kasenyi plains to catch early risers such as elephants, buffalos, leopards, lions, bushbucks, and kobs. Drive to Mweya for lunch at the canteen, then take an afternoon cruise along the Kazinga Channel. Return to the lodge to relax before dinner and overnight at Elephant Plains Lodge (Luxury), Elephant Hab Lodge (Mid-Range), or Bush Lodge (Budget)." },
+      { day: "Day 6: Morning Drive/Visit Katwe Salt Lakes – Transfer to Kibale Forest National Park", description: "Morning game drive through the Mweya Peninsula with your belongings packed in the car, lasting about 3 hours. Alternatively, visit Katwe Salt Lakes. Continue the journey to Kibale Forest National Park, with a stopover for lunch en route. On arrival, take a nature walk through the Bigodi Swamp to see resident monkeys and birds. Dinner and overnight at Primate Lodge (Luxury), Turaco TreeTop Lodge (Mid-Range), or Chimpanzee Forest Lodge (Budget)." },
+      { day: "Day 7: Chimpanzee Trekking in Kibale", description: "Early breakfast, then transfer to the Kanyanchu head offices for a briefing on the chimpanzee trek ahead. Track chimpanzees through the forest, with the chance to spot 12 other primate species including vervet monkeys, grey-cheeked mangabeys, and baboons. Dinner and overnight at Primate Lodge (Luxury), Turaco TreeTop Lodge (Mid-Range), or Chimpanzee Forest Lodge (Budget)." },
+      { day: "Day 8: Departure back to Kigali", description: "Early morning breakfast, then drive back to Kigali to end the 8-day safari." },
+    ],
+  },
+  //=========================================================================
+    {
+    slug: "8-days-uganda-wildlife-tour",
+    title: "8 Days Uganda Wildlife Tour",
+    duration: "8 Days / 7 Nights",
+    image: "/images/walk.jpg",
+    price: "$2420",
+    priceNote: "per person (sharing). Single room supplement $180. Excludes Gorilla permit of $800 and Chimpanzee permit of $250 per person per trek.",
+    overview: "A complete Uganda wildlife circuit linking Lake Mburo, Bwindi, Queen Elizabeth, and Kibale — combining gorilla trekking, chimpanzee tracking, boat cruises, and game drives in one 8-day journey from Entebbe.",
+    description: "This 8-day tour takes you through four of Uganda's finest parks. Begin at Lake Mburo, the smallest of Uganda's ten national parks, for game drives and a boat cruise in search of hippos and water birds. Continue to Bwindi Impenetrable Forest for mountain gorilla trekking, then to Queen Elizabeth National Park for game drives across the Kasenyi plains and a boat cruise on the Kazinga Channel. Finish in Kibale Forest National Park with chimpanzee trekking and a Bigodi community walk, before returning to Entebbe for your flight out.",
+    highlights: [
+      "Scenic drive to Lake Mburo",
+      "Gorilla trekking",
+      "Scenic drive to Bwindi",
+      "Boat cruise on Kazinga Channel",
+      "Chimpanzee trekking",
+      "Bigodi Community walk",
+    ],
+    itinerary: [
+      { day: "Day 1: Entebbe to Lake Mburo National Park", description: "Arrive and have breakfast, then drive to Lake Mburo National Park through small Ugandan towns, with a stopover at the Equator line for photos and informative talks. Enjoy an en-route game drive on the way to your lodge for check-in and lunch. After lunch, take an afternoon game drive en route to the lake for a boat cruise in search of hippos, crocodiles, and water birds. Accommodation: Rwakobo Rock or Mantana Tented Camp. Meals: Breakfast, Lunch, and Dinner. Drive time 3-4 hours." },
+      { day: "Day 2: Transfer to Bwindi Impenetrable Forest National Park", description: "Morning breakfast and check out, with an en-route game drive through Lake Mburo National Park before proceeding to Bwindi Impenetrable Forest National Park in southwestern Uganda. The journey passes through green rolling hills with banana and tea plantations. Lunch en route, arriving at your Bwindi lodge in the evening. Accommodation: Rushaga Gorilla Camp, Rushaga Gorilla Havens Lodge, or Ichumbi Gorilla Lodge. Meals: Breakfast, Lunch, and Dinner. Drive time 5-6 hours." },
+      { day: "Day 3: Gorilla Tracking in Bwindi Impenetrable National Park", description: "Breakfast with a packed lunch ready, then drive to the park headquarters for registration and a briefing on gorilla tracking dos and don'ts. Trek through thick creepers and undergrowth with ranger guides to find the gorillas, a search that can take half an hour to three-quarters of a day. Spend one hour with the gorilla family before hiking back to the park offices to receive your certificate. Accommodation: Rushaga Gorilla Camp, Rushaga Gorilla Havens Lodge, or Ichumbi Gorilla Lodge. Meals: Breakfast, Lunch, and Dinner." },
+      { day: "Day 4: Drive to Queen Elizabeth National Park", description: "After breakfast, depart for Queen Elizabeth National Park with incredible scenery along the way. Arrive in time for lunch at the lodge, then take an evening game drive in the Kasenyi plains on the park's northern bank in search of buffaloes, antelopes, elephants, and possibly lions or leopards. Accommodation: Elephant Hub Safari Lodge or Buffalo Safari Resort. Meals: Breakfast, Lunch, and Dinner. Drive time 5-6 hours." },
+      { day: "Day 5: Morning Game Drive and Afternoon Boat Cruise on the Kazinga Channel", description: "Return to the Kasenyi plains for a morning game drive to find what was missed the previous evening. After lunch at the lodge, drive to the jetty for an afternoon boat cruise on the Kazinga Channel, with chances of viewing hippos, water birds, elephants, buffaloes, and crocodiles along the shores. Accommodation: Elephant Hub Safari Lodge or Buffalo Safari Resort. Meals: Breakfast, Lunch, and Dinner." },
+      { day: "Day 6: Transfer to Kibale Forest National Park", description: "After early breakfast and check out, drive through the Kasenyi area for an en-route boat safari on the Kazinga Channel to view wildlife and birds at the water's edge. Lunch en route, then continue to Kibale Forest National Park, arriving at your lodge in the late afternoon. Accommodation: Kibale Home Stay, Chimpanzee Guest House, or Kibale Forest Camp. Meals: Breakfast, Lunch, and Dinner. Drive time 3-4 hours." },
+      { day: "Day 7: Chimpanzee Trekking and Bigodi Community Walk", description: "After breakfast, drive to the park headquarters for a briefing on chimpanzee tracking dos and don'ts, then set off into Kibale Forest National Park, with the chance to spot some of the 13 primate species native to the forest. After lunch, drive to Bigodi for a community walk, interacting directly with the people living alongside the national park. Accommodation: Kibale Home Stay, Chimpanzee Guest House, or Kibale Forest Camp. Meals: Breakfast, Lunch, and Dinner." },
+      { day: "Day 8: Return to Kampala/Entebbe", description: "After breakfast, transfer back to Kampala/Entebbe International Airport for your next flight out, marking the end of the 8-day tour." },
+    ],
+  },
+  //=================================================================================
+    {
+    slug: "10-days-uganda-primates-and-game-safari",
+    title: "10 Days Uganda Primates and Game Safari",
+    duration: "10 Days / 9 Nights",
+    image: "/images/walk.jpg",
+    price: "$3050",
+    priceNote: "per person.",
+    overview: "Trek all of Uganda's prime primates — Mountain Gorillas in Bwindi and Chimpanzees in Kibale — and chase the Big 5 across Queen Elizabeth, Murchison Falls, and Ziwa Rhino Sanctuary, in one all-inclusive 10-day circuit from Kampala/Entebbe.",
+    description: "This 10-day safari gives you the opportunity to trek and see all of Uganda's prime primates, including Mountain Gorillas in Bwindi and Chimpanzees in Kibale Forest National Park, alongside Big 5 game viewing across Queen Elizabeth National Park, Murchison Falls National Park, and Ziwa Rhino Sanctuary. This all-inclusive tour starts and ends in Kampala/Entebbe and includes return airport transfers.",
+    highlights: [
+      "Gorilla trekking in Bwindi Impenetrable Forest",
+      "Chimpanzee trekking and Bigodi wetland walk",
+      "Queen Elizabeth National Park game drives and Kazinga Channel boat cruise",
+      "Murchison Falls boat cruise to the bottom of the falls",
+      "Nile Delta cruise in search of the shoebill stork",
+      "On-foot rhino tracking at Ziwa Rhino Sanctuary",
+    ],
+    itinerary: [
+      { day: "Day 1: Kampala/Entebbe to Bwindi Impenetrable National Park", description: "Pickup from Entebbe International Airport or your hotel/guest house in Kampala/Entebbe, then drive south to Bwindi, with a stop at the Equator and a lunch stopover en route. Arrive in the evening at your lodge for check-in, dinner, and overnight. Drive time 8-9 hours. Lodging: Rushaga Gorilla Havens Lodge (Budget), Rushaga Gorilla Camp (Mid-range), or Buhoma Lodge (Luxury)." },
+      { day: "Day 2: Gorilla Trekking Experience and Community Walk", description: "After breakfast, drive to the park headquarters for a briefing from Uganda Wildlife Authority ranger guides, who allocate you to a gorilla family group. In a confirmed group of 8 people, two ranger guides lead you into the thick impenetrable forest to search for mountain gorillas, picking up the trail from where they were last seen. Spend one hour with the gorillas in maximum silence, taking photographs, with a 99% chance of success. Advanced trackers monitor gorilla movements throughout the day to guide the search. Afterward, return to the starting point to collect your tracking certificate. Lodging: Rushaga Gorilla Havens Lodge (Budget), Rushaga Gorilla Camp (Mid-range), or Buhoma (Luxury)." },
+      { day: "Day 3: Drive to Queen Elizabeth National Park", description: "After breakfast, drive to Queen Elizabeth National Park, arriving in the afternoon with stops for sightseeing along the way. Check in and relax, then head out for an evening game drive to search for late grazers. Queen Elizabeth National Park is Uganda's most diverse conservation area, spanning grassland, acacia woodland, forest, and wetland habitats, sustaining the Big 4 animals and over 604 bird species. Drive time 4-5 hours. Lodging: Bush Lodge (Budget), Elephant Hab Lodge (Mid-range), or Elephant Plains Lodge (Luxury)." },
+      { day: "Day 4: Morning Game Drive and Afternoon Boat Cruise on Kazinga Channel", description: "Drive to the Kasenyi plains for a 2-3 hour morning game drive, spotting elephants, large herds of buffalo, leopards, lions, bushbucks, kobs, and antelopes. Continue to Mweya Peninsula for hot lunch and relaxation, then take an afternoon boat cruise on the Kazinga Channel — a highlight of the safari — to see hippos, wildlife along the shores, and various bird species. Return to the lodge for dinner and overnight. Lodging: Bush Lodge (Budget), Elephant Hab Lodge (Mid-range), or Elephant Plains Lodge (Luxury)." },
+      { day: "Day 5: Morning Game Drive/Visit Katwe Salt Lakes – Transfer to Kibale Forest National Park", description: "Take a morning game drive through the Mweya Peninsula with your belongings packed in the car, lasting about 3 hours, or alternatively visit Katwe Salt Lakes. Continue the journey to Kibale Forest National Park, with a lunch stopover en route. On arrival, take a nature walk through the Bigodi Swamp to see resident monkeys and birds. Kibale Forest National Park is home to 13 primate species and over 335 bird species. Drive time 1-2 hours. Dinner and overnight at Chimpanzee Forest Lodge (Budget), Turaco Treetops Lodge (Mid-range), or Papaya Lake Lodge (Luxury)." },
+      { day: "Day 6: Chimpanzee Trekking and Bigodi Wetland Walk", description: "After breakfast, drive to Kibale National Park headquarters to meet your guides for the chimpanzee tracking experience. Trek into the forest with experienced trackers to view wild chimpanzees and other primates in their natural habitat, spending one hour within meters of these social apes. Note that tracking can be strenuous as chimpanzees are highly mobile, and sightings cannot be guaranteed. Dinner and overnight at Chimpanzee Forest Lodge (Budget), Turaco Treetops Lodge (Mid-range), or Papaya Lake Lodge (Luxury)." },
+      { day: "Day 7: Transfer to Murchison Falls National Park", description: "Drive to Murchison Falls National Park, with an en-route visit to the top of the falls and an evening game drive to search for late grazers, before proceeding to the lodge for dinner and overnight. Murchison Falls National Park is Uganda's largest national park at 3,840 sq km, where the Nile is forced through a 6-metre gap in the rocks and cascades 40 meters into a boiling pot below. Drive time approximately 6-7 hours. Overnight: Fort Murchison (Budget), Pakuba Safari Lodge (Mid-range), or Paara Safari Lodge (Luxury). Meal plan: Full board." },
+      { day: "Day 8: Morning Game Drive and Afternoon Boat Cruise to the Bottom of the Falls", description: "After breakfast, take a morning game drive to spot giraffes, buffaloes, antelopes, hippos, and possibly lions or leopards. Return to the lodge for a lunch break, then head to the pier for a two-hour boat cruise to the bottom of the falls, witnessing the Nile explode through the narrow gorge while encountering elephants, hippos, reptiles, and birds along the banks. Overnight: Fort Murchison (Budget), Pakuba Safari Lodge (Mid-range), or Paara Safari Lodge (Luxury). Meal plan: Full board." },
+      { day: "Day 9: Morning Delta Cruise and Afternoon Game Drive", description: "Embark on a three-to-five-hour cruise downstream with breakfast on board, exploring wetland and papyrus habitats home to the elusive shoebill stork, hippos, elephants, and large crocodiles as the Nile winds toward Lake Albert. In the afternoon, head out for a second game drive on the North Bank to spot any species missed earlier. Overnight: Fort Murchison (Budget), Pakuba Safari Lodge (Mid-range), or Paara Safari Lodge (Luxury). Meal plan: Full board." },
+      { day: "Day 10: Transfer back to Kampala/Entebbe via Ziwa Rhino Sanctuary", description: "Drive back to Kampala/Entebbe via Ziwa Rhino Sanctuary for on-foot rhino tracking and a hot lunch, before proceeding for drop-off to end the safari. Ziwa Rhino Sanctuary is patrolled by a security force of 80 rangers and is home to roughly 20 other wildlife species and 300 bird species, including the elusive shoebill stork." },
+    ],
+  },
+
+
+
+
+
   {
     slug: "3-days-murchison-falls-safari",
     title: "3 Days Murchison Falls Safari",

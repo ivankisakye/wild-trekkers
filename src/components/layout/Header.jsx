@@ -26,6 +26,10 @@ const DROPDOWN_DATA = {
     {
       title: 'Gorilla Trekking Offers',
       links: [
+        '3 Days Gorilla Habituation Experience',
+        '3 Days Gorilla Habituation Safari',
+        '5 Days Uganda Gorilla Safari',
+        '5 Days Uganda Gorilla Tours',
         '2 Days Rwanda Gorilla Safari',
         '2 Days Budget Gorilla from Kigali',
         '3 Days Bwindi Gorilla Trekking',
@@ -86,6 +90,10 @@ const DROPDOWN_DATA = {
     {
       title: 'Classic Wildlife Safaris',
       links: [
+        '3 Days Bwindi Safari',
+        '8 Days Uganda Primates and Wildlife Safari through Kigali',
+        '8 Days Uganda Wildlife Tour',
+        '10 Days Uganda Primates and Game Safari',
         '3 Days Murchison Falls Safari',
         '4 Days Queen Elizabeth Tour',
         '5 Days Big 5 Safari',
